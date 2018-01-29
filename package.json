@@ -1,0 +1,36 @@
+{
+  "name": "the-politico.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.njk -p 3000",
+    "build": "parcel build src/index.njk -d docs/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Politico/The-Politico.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Politico/The-Politico.github.io/issues"
+  },
+  "homepage": "https://github.com/The-Politico/The-Politico.github.io#readme",
+  "dependencies": {
+    "normalize.css": "^7.0.0",
+    "preact": "^8.2.7",
+    "preact-compat": "^3.17.0"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.7.2",
+    "nunjucks": "^3.0.1",
+    "parcel-bundler": "*",
+    "parcel-plugin-nunjucks": "git://github.com/The-Politico/parcel-plugin-nunjucks.git"
+  }
+}
