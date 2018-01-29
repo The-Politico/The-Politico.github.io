@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.njk -p 3000",
-    "build": "parcel build src/index.njk -d docs/",
+    "build": "parcel build src/index.njk -d ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
