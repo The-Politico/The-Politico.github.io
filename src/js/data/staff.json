@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Jeremy C.F. Lynn",
+    "title": "Graphics producer",
+    "about": "I like cats.",
+    "image": "https://pbs.twimg.com/profile_images/969751170842374144/io8LQtJ__400x400.jpg",
+    "twitter": "Jeremy_CF_Lin"
+  },
+  {
+    "name": "Tyler Fisher",
+    "title": "Senior newsapps developer",
+    "about": "I like food trucks.",
+    "image": "https://pbs.twimg.com/profile_images/809254287683571712/g-mfpZCY_400x400.jpg",
+    "twitter": "tylrfishr"
+  },
+  {
+    "name": "Sarah Frostenson",
+    "title": "Graphics producer",
+    "about": "I like bikes.",
+    "image": "https://pbs.twimg.com/profile_images/516921211247280128/JSGuhYaE_400x400.jpeg",
+    "twitter": "sfrostenson"
+  },
+  {
+    "name": "Jon McClure",
+    "title": "Interactive News Editor",
+    "about": "I like scotch.",
+    "image": "https://pbs.twimg.com/profile_images/529916009545617408/zpfFPx8B_400x400.jpeg",
+    "twitter": "JonRMcClure"
+  },
+  {
+    "name": "Lily Mihalik",
+    "title": "News Design Editor",
+    "about": "I like Olive!",
+    "image": "https://pbs.twimg.com/profile_images/827056595641044993/N6CCoIof_400x400.jpg",
+    "twitter": "mazet"
+  }
+]
