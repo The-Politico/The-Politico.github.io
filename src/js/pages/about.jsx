@@ -1,21 +1,32 @@
 import React from 'react';
+import Header from '../components/header.jsx';
 import staff from '../data/staff.json';
 import Markdown from 'react-markdown';
+import Staffer from '../components/staffer.jsx';
 const mkContent = require('../../content/about/*');
 
-console.log(mkContent['Team.md']);
-
-const Team = mkContent['Team.md'];
+const WhatWeDo = mkContent['WhatWeDo.md'];
+const HowWeWork = mkContent['HowWeWork.md'];
 
 const About = () => {
   const staffers = staff.map(staffer => (
-    <div>{staffer.name}</div>
+    <Staffer staffer={staffer}/>
   ));
   return (
     <div className='page about'>
-      <h2>About</h2>
-      <Team/>
-      {staffers}
+      <Header />
+      <article>
+        <h2>What we do</h2>
+        <WhatWeDo/>
+      </article>
+      <article>
+        <h2>Who we are</h2>
+        {staffers}
+      </article>
+      <article>
+        <h2>How we work</h2>
+        <HowWeWork/>
+      </article>
     </div>
   );
 }

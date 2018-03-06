@@ -1,3 +1,12 @@
-@import 'colors';
-@import 'fonts';
-@import 'home/styles';
+@import 'theme/colors';
+@import 'theme/fonts';
+@import 'theme/mixins';
+@import 'theme/bulma';
+
+@import 'components/header';
+@import 'components/elements';
+@import 'components/home/styles';
+@import 'components/about/styles';
+@import 'components/about/staffer';
+@import 'components/jobs/styles';
+@import 'components/source/styles';

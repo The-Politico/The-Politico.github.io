@@ -1,0 +1,28 @@
+.staffer{
+  margin: 10px 0;
+  .topline{
+    @include clearfix;
+    @extend %body-font;
+  }
+  .profile{
+    float: left;
+    display: inline-block;
+    width: 100px;
+    img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+  .identity{
+    float: left;
+    display: inline-block;
+    padding: 25px 20px;
+    h4{
+      margin: 0;
+      font-size: 32px;
+    }
+    p{
+      margin: 0;
+    }
+  }
+}

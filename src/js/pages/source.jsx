@@ -1,9 +1,8 @@
 import React from 'react';
+import Header from '../components/header.jsx';
 const mkContent = require('../../content/open-source/*');
 
 const projects = Object.keys(mkContent);
-
-console.log('projects', projects);
 
 const cards = projects.map((f) => {
 
@@ -18,8 +17,11 @@ const cards = projects.map((f) => {
 const Source = () => {
   return (
     <div className='page source'>
-      <h2>Our stuff</h2>
-      {cards}
+      <Header />
+      <article>
+        <h2>Our stuff</h2>
+        {cards}
+      </article>
     </div>
   );
 }
