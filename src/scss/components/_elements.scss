@@ -4,3 +4,27 @@ article{
   margin: 0 auto;
   padding: 40px 20px;
 }
+
+
+h1, h2, h3, h4{
+    @extend %display-font;
+    font-weight: 700;
+    color: $politico-red;
+
+    a{
+      color: $politico-red;
+      // &:hover{
+      //   color: lighten($politico-red, .1);
+      // }
+    }
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 1.3;
+}
+
+h3{
+    font-size: 2rem;
+    line-height: 1.3;
+}

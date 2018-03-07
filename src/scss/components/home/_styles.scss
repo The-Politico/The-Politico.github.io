@@ -4,10 +4,15 @@
   background-color: $politico-red;
   color: white;
   text-align: center;
+
   .center-box{
-    margin: 10vh auto;
+    margin: 9vh 0 0 15vh;
     display: inline-block;
     text-align: left;
+
+    @media(max-width:768px){
+      margin: 15vh 0 0 0;
+    }
   }
   .brand{
     text-align: left;
@@ -16,10 +21,19 @@
   h1{
     @extend %display-font;
     margin: 0px 0 20px;
-    font-size: 120px;
+    font-size: 11vw;
     font-weight: 900;
     letter-spacing: 0;
-    line-height: 85px;
+    line-height: 7vw;
+
+    @media(max-width:768px){
+      margin: 0 0 0 -7px;
+      font-size: 21vw;
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 11vw;
+    }
+
     span{
       display: block;
       &:nth-child(1){
@@ -38,11 +52,14 @@
         opacity: 0.5;
       }
     }
+
   }
   .links {
     @extend %body-font;
-    margin: 0;
+    margin: 20px auto;
     font-size: 24px;
+
+
     a{
       margin-right: 50px;
       opacity: 1;
