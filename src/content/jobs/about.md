@@ -1,1 +1,1 @@
-We're looking for blah and blah and blah. If you're one of those people, get in touch with us!
+Join a hard-charging, thoughtful team of journalist developers working in the savviest politics and policy newsroom in America.

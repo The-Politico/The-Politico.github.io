@@ -21,7 +21,7 @@
   font-size: .9rem;
   text-align: center; }
 
-.page.home h1 {
+h1, h2, h3, h4, h5, h6, .page.home h1 {
   font-family: "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 header nav, .page.home .links, .staffer .topline {
@@ -3281,6 +3281,9 @@ header {
     clear: both;
     content: " ";
     display: table; }
+  @media (max-width: 600px) {
+    header {
+      padding: 10px 0px 10px 20px; } }
   header .left {
     width: 150px;
     margin-top: 2px;
@@ -3313,10 +3316,41 @@ header {
         text-decoration: underline; }
 
 article {
-  max-width: 850px;
-  width: 100%;
+  max-width: 600px;
   margin: 0 auto;
   padding: 40px 20px; }
+
+p {
+  margin: 0 0 1.618rem 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; }
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: #9e0000; }
+
+h2, h3, h4, h5, h6 {
+  color: #9e0000; }
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.3; }
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.3;
+  font-weight: 200; }
+
+h4 {
+  font-size: 1.5rem; }
+
+.button {
+  border: 1px solid #9e0000;
+  background-color: #9e0000;
+  color: #fff; }
+  .button:hover {
+    background-color: #fff;
+    color: #9e0000;
+    border: 1px solid #9e0000; }
 
 .page.home {
   height: 100vh;
@@ -3325,18 +3359,28 @@ article {
   color: white;
   text-align: center; }
   .page.home .center-box {
-    margin: 10vh auto;
+    margin: 9vh 0 0 15vh;
     display: inline-block;
     text-align: left; }
+    @media (max-width: 600px) {
+      .page.home .center-box {
+        margin: 15vh 0 0 0; } }
   .page.home .brand {
     text-align: left;
     padding: 0 0 0 10px; }
   .page.home h1 {
     margin: 0px 0 20px;
-    font-size: 120px;
+    font-size: 10vw;
     font-weight: 900;
     letter-spacing: 0;
-    line-height: 85px; }
+    line-height: 6.6vw; }
+    @media (max-width: 600px) {
+      .page.home h1 {
+        margin: 10px 0 0 -7px;
+        font-size: 23vw;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 13vw; } }
     .page.home h1 span {
       display: block; }
       .page.home h1 span:nth-child(1) {
@@ -3350,8 +3394,14 @@ article {
       .page.home h1 span:nth-child(5) {
         opacity: 0.5; }
   .page.home .links {
-    margin: 0;
+    margin: 20px auto;
     font-size: 24px; }
+    @media (max-width: 768px) {
+      .page.home .links {
+        font-size: 18px; } }
+    @media (max-width: 600px) {
+      .page.home .links {
+        padding-left: 15px; } }
     .page.home .links a {
       margin-right: 50px;
       opacity: 1;
@@ -3377,8 +3427,7 @@ article {
 
 .page.about h2 {
   font-family: "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 46px;
-  text-align: center; }
+  font-size: 46px; }
 
 .staffer {
   margin: 10px 0; }
@@ -3402,3 +3451,6 @@ article {
       font-size: 32px; }
     .staffer .identity p {
       margin: 0; }
+
+.card {
+  margin-top: 2rem; }

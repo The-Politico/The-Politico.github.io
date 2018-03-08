@@ -1,7 +1,13 @@
 ### Developer
 
-Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No?
+We're looking for a developer who will have a special focus on building newsroom tools.
 
-Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
+These aren't your tech team's widgets. We want lean tools and apps that deepen our relationship with our newsroom and broaden POLITICO's report. We see these tools as a fundamental expression of journalism that require keen editorial judgment.
 
-Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear.
+You won't be squirreled away writing regression tests. We want someone who is comfortable representing new ideas to our newsroom and helping shape the workflow around them through close communication with frontline reporters and editors.
+
+You'll be a fully vested member of our Interactives team, which means you'll also be comfortable working on some corner of our elections rig, supporting our dataviz developers and iterating through concepts with our designers.
+
+You will be a good fit for this job if you have an iconoclastic attitude toward newsroom tech and the skills to build a better way. Previous experience working in a newsroom is preferred.
+
+Sound interesting if still a little vague? Let's talk.
