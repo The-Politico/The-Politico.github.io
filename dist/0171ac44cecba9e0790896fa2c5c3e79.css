@@ -3319,8 +3319,7 @@ article {
   padding: 40px 20px; }
 
 h1, h2, h3, h4 {
-  font-weight: 700;
-  color: #9e0000; }
+  font-weight: 700; }
   h1 a, h2 a, h3 a, h4 a {
     color: #9e0000; }
 
@@ -3342,7 +3341,7 @@ h3 {
     margin: 9vh 0 0 15vh;
     display: inline-block;
     text-align: left; }
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
       .page.home .center-box {
         margin: 15vh 0 0 0; } }
   .page.home .brand {
@@ -3350,11 +3349,11 @@ h3 {
     padding: 0 0 0 10px; }
   .page.home h1 {
     margin: 0px 0 20px;
-    font-size: 11vw;
+    font-size: 10vw;
     font-weight: 900;
     letter-spacing: 0;
-    line-height: 7vw; }
-    @media (max-width: 768px) {
+    line-height: 6vw; }
+    @media (max-width: 600px) {
       .page.home h1 {
         margin: 0 0 0 -7px;
         font-size: 21vw;

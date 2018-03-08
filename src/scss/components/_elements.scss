@@ -9,8 +9,6 @@ article{
 h1, h2, h3, h4{
     @extend %display-font;
     font-weight: 700;
-    color: $politico-red;
-
     a{
       color: $politico-red;
       // &:hover{

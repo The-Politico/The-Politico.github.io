@@ -10,7 +10,7 @@
     display: inline-block;
     text-align: left;
 
-    @media(max-width:768px){
+    @media(max-width:600px){
       margin: 15vh 0 0 0;
     }
   }
@@ -21,12 +21,12 @@
   h1{
     @extend %display-font;
     margin: 0px 0 20px;
-    font-size: 11vw;
+    font-size: 10vw;
     font-weight: 900;
     letter-spacing: 0;
-    line-height: 7vw;
+    line-height: 6vw;
 
-    @media(max-width:768px){
+    @media(max-width:600px){
       margin: 0 0 0 -7px;
       font-size: 21vw;
       font-weight: 900;
@@ -58,7 +58,6 @@
     @extend %body-font;
     margin: 20px auto;
     font-size: 24px;
-
 
     a{
       margin-right: 50px;
