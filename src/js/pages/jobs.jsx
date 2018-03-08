@@ -11,8 +11,12 @@ const Jobs = () => (
     <article>
       <h2>Jobs</h2>
       <About />
-      <Designer />
-      <Developer />
+      <div className='card'>
+        <Designer />
+      </div>
+      <div className='card'>
+        <Developer />
+      </div>
     </article>
   </div>
 )

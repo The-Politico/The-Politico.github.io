@@ -12,9 +12,9 @@ const Header = (props) => {
         </Link>
       </div>
       <nav>
-        <Link to="/about">Our team</Link>
+        <Link to="/about"><span class="is-hidden-mobile">Our team</span><span class="is-hidden-tablet">Team</span></Link>
         <Link to="/jobs">Jobs</Link>
-        <Link to="/open-source">Open source</Link>
+        <Link to="/open-source"><span class="is-hidden-mobile">Open source</span><span class="is-hidden-tablet">Code</span></Link>
       </nav>
     </header>
   )

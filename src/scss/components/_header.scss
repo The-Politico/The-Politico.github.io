@@ -3,6 +3,11 @@ header{
   padding: 10px 20px;
   border-bottom: 1px solid $politico-red;
   @include clearfix;
+
+  @media(max-width: 600px){
+    padding: 10px 0px 10px 20px;
+  }
+
   .left{
     width: 150px;
     margin-top: 2px;
