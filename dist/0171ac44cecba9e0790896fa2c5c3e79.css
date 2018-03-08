@@ -3316,8 +3316,7 @@ header {
         text-decoration: underline; }
 
 article {
-  max-width: 850px;
-  width: 100%;
+  max-width: 600px;
   margin: 0 auto;
   padding: 40px 20px; }
 

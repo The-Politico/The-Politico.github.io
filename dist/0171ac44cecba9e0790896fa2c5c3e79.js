@@ -38951,7 +38951,7 @@ module.exports = [
   },
   {
     "name": "Jeremy C.F. Lynn",
-    "title": "Graphics Editor",
+    "title": "Interactive Designer",
     "about": "Jeremy.md",
     "image": "https://pbs.twimg.com/profile_images/969751170842374144/io8LQtJ__400x400.jpg",
     "twitter": "Jeremy_CF_Lin"
@@ -39320,7 +39320,7 @@ var App = function App() {
 };
 
 (0, _reactDom.render)(_react2.default.createElement(App, null), document.getElementById('app'));
-},{"./../scss/styles.scss":3,"react":32,"react-dom":33,"react-router-dom":34,"react-transition-group":35,"./pages/home":4,"./pages/jobs":5,"./pages/about":6,"./pages/source":7}],230:[function(require,module,exports) {
+},{"./../scss/styles.scss":3,"react":32,"react-dom":33,"react-router-dom":34,"react-transition-group":35,"./pages/home":4,"./pages/jobs":5,"./pages/about":6,"./pages/source":7}],232:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -39441,5 +39441,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[230,2])
+},{}]},{},[232,2])
 //# sourceMappingURL=/dist/0171ac44cecba9e0790896fa2c5c3e79.map
