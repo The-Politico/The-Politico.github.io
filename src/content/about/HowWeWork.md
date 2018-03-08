@@ -1,5 +1,11 @@
-You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out.
+We work on everything from breaking news to complex projects we manage across weeks and months.
 
-Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't.
+Our ideas come from close collaboration with reporters and editors as much as they do from constant conversation within our own team.
 
-Nature is lethal but it doesn't hold a candle to man.
+We publish content within our CMS and maintain our own platforms to publish code freely.
+
+We are constantly refining and reinventing how we work, from the conventions we use in our code to the way we meet together. Everything on the team is in a process of becoming something better and everyone on the team is an equal partner in getting us there.
+
+We are committed to radical transparency, whether that's broadcasting our priorities or open-sourcing our code.
+
+We like coffee, unless we don't and drink tea. We like metal music, unless we don't. We like cats, unless we don't.
