@@ -3320,6 +3320,9 @@ article {
   margin: 0 auto;
   padding: 40px 20px; }
 
+p {
+  margin: 0 0 1.618rem 0; }
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -3339,6 +3342,15 @@ h3 {
 
 h4 {
   font-size: 1.5rem; }
+
+.button {
+  border: 1px solid #9e0000;
+  background-color: #9e0000;
+  color: #fff; }
+  .button:hover {
+    background-color: #fff;
+    color: #9e0000;
+    border: 1px solid #9e0000; }
 
 .page.home {
   height: 100vh;

@@ -38927,6 +38927,15 @@ var Jobs = function Jobs() {
         'div',
         { className: 'card' },
         _react2.default.createElement(_developer2.default, null)
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'card' },
+        _react2.default.createElement(
+          'a',
+          { 'class': 'button', href: 'mailto:jmcclure@politico.com,lmihalik@politico.com?subject=Interactive%20News%20Jobs%20at%20POLITICO' },
+          'Get in touch'
+        )
       )
     )
   );
@@ -39074,11 +39083,6 @@ var Staffer = function Staffer(props) {
           props.staffer.title
         )
       )
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'about' },
-      _react2.default.createElement(About, null)
     )
   );
 };
@@ -39320,7 +39324,7 @@ var App = function App() {
 };
 
 (0, _reactDom.render)(_react2.default.createElement(App, null), document.getElementById('app'));
-},{"./../scss/styles.scss":3,"react":32,"react-dom":33,"react-router-dom":34,"react-transition-group":35,"./pages/home":4,"./pages/jobs":5,"./pages/about":6,"./pages/source":7}],232:[function(require,module,exports) {
+},{"./../scss/styles.scss":3,"react":32,"react-dom":33,"react-router-dom":34,"react-transition-group":35,"./pages/home":4,"./pages/jobs":5,"./pages/about":6,"./pages/source":7}],240:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -39441,5 +39445,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[232,2])
+},{}]},{},[240,2])
 //# sourceMappingURL=/dist/0171ac44cecba9e0790896fa2c5c3e79.map

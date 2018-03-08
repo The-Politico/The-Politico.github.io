@@ -16,9 +16,6 @@ const Staffer = (props) => {
           <p>{props.staffer.title}</p>
         </div>
       </div>
-      <div className='about'>
-        <About />
-      </div>
     </div>
   );
 }
