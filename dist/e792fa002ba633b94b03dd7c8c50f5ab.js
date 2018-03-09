@@ -38862,7 +38862,7 @@ module.exports = ReactMarkdown;
         const ReactMarkdown = require('react-markdown');
         module.exports = function() { return React.createElement(
           ReactMarkdown,
-          {source: `Join a hard-charging, thoughtful team of journalist developers working in the savviest politics and policy newsroom in America.\n`},
+          {source: `Join a hard-charging, thoughtful team of journalist-developers working in the savviest politics and policy newsroom in America.\n`},
           null
         ); };
       
@@ -38872,7 +38872,7 @@ module.exports = ReactMarkdown;
         const ReactMarkdown = require('react-markdown');
         module.exports = function() { return React.createElement(
           ReactMarkdown,
-          {source: `### Front-end Developer/Designer\n\nWe're looking for a strong visual designer with an eye for storytelling and an aptitude for iteration. You'll help shape the voice and visual signature of the POLITICO Interactives team with your passion for mobile, information, interface and experimental story design.\n\nWe're a highly collaborative team where you'll work closely with the world's best POLITICAL editors and reporters, to pitch, report and build the stories shaping the political conversation today.\n\nYou should be well-versed in front-end tech, JavaScript, HTML, Sass, among others. If you like asking, "What if we tried...?" get in touch.\n`},
+          {source: `### Front-end Developer/Designer\n\nWe're looking for a strong visual designer with an eye for storytelling and an aptitude for iteration. You'll help shape the voice and visual signature of the POLITICO Interactives team with your passion for mobile, information, interface and experimental story design.\n\nWe're a highly collaborative team where you'll work closely with the world's best POLITICAL editors and reporters, to pitch, report and build the stories shaping the political conversation today.\n\nYou should be well-versed in front-end tech: JavaScript, HTML, Sass, among others. If you like asking, "What if we tried...?" get in touch.\n`},
           null
         ); };
       
@@ -38882,7 +38882,7 @@ module.exports = ReactMarkdown;
         const ReactMarkdown = require('react-markdown');
         module.exports = function() { return React.createElement(
           ReactMarkdown,
-          {source: `### Developer\n\nWe're looking for a developer who will have a special focus on building newsroom tools.\n\nThese aren't your tech team's widgets. We want lean tools and apps that deepen our relationship with our newsroom and broaden POLITICO's report. We see these tools as a fundamental expression of journalism that require keen editorial judgment.\n\nYou won't be squirreled away writing regression tests. We want someone who is comfortable representing new ideas to our newsroom and helping shape the workflow around them through close communication with frontline reporters and editors.\n\nYou'll be a fully vested member of our Interactives team, which means you'll also be comfortable working on some corner of our elections rig, supporting our dataviz developers and iterating through concepts with our designers.\n\nYou will be a good fit for this job if you have an iconoclastic attitude toward newsroom tech and the skills to build a better way. Previous experience working in a newsroom is preferred.\n\nSound interesting if still a little vague? Let's talk.\n`},
+          {source: `### Developer\n\nWe're looking for a developer who will have a special focus on building newsroom tools.\n\nThese aren't your tech team's widgets. We want lean tools and apps that deepen our relationship with our newsroom and broaden POLITICO's report. We see these tools as a fundamental expression of journalism that require keen editorial judgment.\n\nYou won't be squirreled away writing regression tests. We want someone who is comfortable representing new ideas to our newsroom and helping shape the workflow around them through close communication with frontline reporters and editors.\n\nYou'll be a fully vested member of our Interactives team, which means you'll also be comfortable working on some corner of our elections rig, supporting our dataviz developers and iterating through concepts with our designers.\n\nYou will be a good fit for this job if you have an iconoclastic attitude toward newsroom tech and the skills to build a better way. Previous experience working in a newsroom is preferred.\n\nSound interesting? Let's talk.\n`},
           null
         ); };
       
