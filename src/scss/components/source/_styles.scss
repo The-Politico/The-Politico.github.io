@@ -1,13 +1,16 @@
 .card{
   margin-top: 2rem;
-  border-bottom: 1px solid #ddd;
-  padding-top: 10px;
-  padding-bottom: 25px;
+
 }
 
 .page.source{
   h4{
     font-weight: normal;
     font-size: 16px;
+  }
+  .card{
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 25px;
   }
 }

@@ -10,4 +10,4 @@ You'll be a fully vested member of our Interactives team, which means you'll als
 
 You will be a good fit for this job if you have an iconoclastic attitude toward newsroom tech and the skills to build a better way. Previous experience working in a newsroom is preferred.
 
-Sound interesting if still a little vague? Let's talk.
+Sound interesting? Let's talk.
