@@ -3433,6 +3433,8 @@ ul {
       cursor: pointer; }
       .page.home .links a:hover {
         text-decoration: underline; }
+      .page.home .links a:last-child {
+        margin-right: 0; }
   .page.home .github {
     text-align: center;
     font-size: 36px;
