@@ -1,6 +1,6 @@
 ### Politico Civic
 
-Politico Civic is a Django project that houses all of our election-centric data projects. Within Civic are multiple pluggable Django apps that work especially well in concert, but a few are useful as standalone Django apps as well.
+Politico Civic is a Django project that houses all of our election-centric data projects. Within Civic are multiple pluggable Django apps that work especially well in concert, but a few are useful as standalone Django apps as well. Each of these pluggable apps contains models about election data and serializers that can pass them to JSON.
 
 #### [Entity](https://github.com/The-Politico/politico-civic-entity)
 
@@ -16,4 +16,12 @@ Demography collects and aggregates Census variables by the political divisions d
 
 #### [Government](https://github.com/The-Politico/politico-civic-government)
 
-Government contains information about political jurisdictions, bodies, and offices. 
+Government contains information about political jurisdictions, bodies, and offices. For example, the United States Federal Government is a jurisdiction, the U.S. Senate is a body, and the Class 1 Senate seat from Texas is an office. It also contains the modeling for political parties.
+
+#### [Election](https://github.com/The-Politico/politico-civic-election)
+
+Election models information about races for particular offices. It also models candidate information, which inherits people from Entity and attaches them to races in Election.
+
+#### [Vote](https://github.com/The-Politico/politico-civic-vote)
+
+Vote models various types of voting that happens in elections. 
