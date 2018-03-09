@@ -1,0 +1,52 @@
+.staffer{
+  margin: 20px 0;
+
+  @media(max-width: 600px){
+  margin: 30px 0;
+  }
+
+  a{
+    color: #282828;
+  }
+
+  .topline{
+    @include clearfix;
+    @extend %body-font;
+  }
+  .profile{
+    float: left;
+    display: inline-block;
+    width: 90px;
+    img {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    @media(max-width: 600px){
+    width: 75px;
+    }
+  }
+  .identity{
+    float: left;
+    display: inline-block;
+    padding: 10px 20px;
+
+    @media(max-width: 600px){
+      padding: 0 15px;
+    }
+
+    h4{
+      margin: 0;
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 200;
+
+      @media(max-width: 600px){
+        font-size: 26px;
+      }
+    }
+    p{
+      margin: 0;
+    }
+  }
+}
