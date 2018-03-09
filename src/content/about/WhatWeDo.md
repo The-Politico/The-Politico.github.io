@@ -1,5 +1,5 @@
-You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out.
+We are a team of journalist developers working alongside some of the savviest, scoopy-est politics and policy reporters in the country. Our job is loosely defined as broadening POLITICO's report, giving our reporters new tools and visual ways to break news and telling a few stories ourselves.
 
-Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't.
+We run elections, build newsroom tools, design better displays of information, develop dataviz, curate databases and craft immersive features for POLITICO's biggest stories.
 
-Nature is lethal but it doesn't hold a candle to man.
+We're a new team, building and rebuilding our workflow and relationships in a thoughtful way.

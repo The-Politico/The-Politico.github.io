@@ -1,7 +1,11 @@
 article{
   max-width: 600px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 30px 20px 0 0 ;
+
+  &:first-of-type{
+    margin-top: 40px;
+  }
 }
 
 p{ margin: 0 0 1.618rem 0;}
@@ -34,7 +38,15 @@ h3{
 }
 h4{
   font-size: 1.5rem;
+}
 
+h5{
+  font-size: .75rem;
+}
+
+.page{
+  padding-bottom: 10rem;
+  border-bottom: 20px solid $politico-red;
 }
 
 

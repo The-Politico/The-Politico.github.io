@@ -3284,6 +3284,9 @@ header {
   @media (max-width: 600px) {
     header {
       padding: 10px 0px 10px 20px; } }
+  @media (max-width: 350px) {
+    header {
+      padding-left: 10px; } }
   header .left {
     width: 150px;
     margin-top: 2px;
@@ -3318,7 +3321,9 @@ header {
 article {
   max-width: 600px;
   margin: 0 auto;
-  padding: 40px 20px; }
+  padding: 30px 20px 0 0; }
+  article:first-of-type {
+    margin-top: 40px; }
 
 p {
   margin: 0 0 1.618rem 0; }
@@ -3342,6 +3347,13 @@ h3 {
 
 h4 {
   font-size: 1.5rem; }
+
+h5 {
+  font-size: .75rem; }
+
+.page {
+  padding-bottom: 10rem;
+  border-bottom: 20px solid #9e0000; }
 
 .button {
   border: 1px solid #9e0000;
@@ -3430,7 +3442,12 @@ h4 {
   font-size: 46px; }
 
 .staffer {
-  margin: 10px 0; }
+  margin: 20px 0; }
+  @media (max-width: 600px) {
+    .staffer {
+      margin: 30px 0; } }
+  .staffer a {
+    color: #282828; }
   .staffer .topline:after {
     clear: both;
     content: " ";
@@ -3438,17 +3455,28 @@ h4 {
   .staffer .profile {
     float: left;
     display: inline-block;
-    width: 100px; }
+    width: 90px; }
     .staffer .profile img {
       width: 100%;
       border-radius: 50%; }
+    @media (max-width: 600px) {
+      .staffer .profile {
+        width: 75px; } }
   .staffer .identity {
     float: left;
     display: inline-block;
-    padding: 25px 20px; }
+    padding: 10px 20px; }
+    @media (max-width: 600px) {
+      .staffer .identity {
+        padding: 0 15px; } }
     .staffer .identity h4 {
       margin: 0;
-      font-size: 32px; }
+      font-size: 32px;
+      line-height: 1;
+      font-weight: 200; }
+      @media (max-width: 600px) {
+        .staffer .identity h4 {
+          font-size: 26px; } }
     .staffer .identity p {
       margin: 0; }
 

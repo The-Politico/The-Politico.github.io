@@ -1,7 +1,7 @@
-### Designer
+### Front-end Developer/Designer
 
-Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No?
+We're looking for a strong visual designer with an eye for storytelling and an aptitude for iteration. You'll help shape the voice and visual signature of the POLITICO Interactives team with your passion for mobile, information, interface and experimental story design.
 
-Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb.
+We're a highly collaborative team where you'll work closely with the world's best POLITICAL editors and reporters, to pitch, report and build the stories shaping the political conversation today.
 
-Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear.
+You should be well-versed in front-end tech, JavaScript, HTML, Sass, among others. If you like asking, "What if we tried...?" get in touch.
