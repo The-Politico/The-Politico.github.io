@@ -1,3 +1,12 @@
 ### [generator-politico-interactives](https://github.com/The-Politico/generator-politico-interactives)
 
-o you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No?
+This is the Yeoman generator that all of our standalone front-end projects are borne from. It gives you the following:
+
+- Scaffolds your project’s development directory.
+- Compiles SCSS and bundles JS written in either ES5 or ES2015 using webpack.
+- Renders HTML templates with custom context.
+- Creates responsive image sets optimized for mobile devices.
+- Publishes your project to an Amazon S3 bucket.
+
+
+[Read the docs](http://generator-politico-interactives.readthedocs.io/en/latest/) for more info!

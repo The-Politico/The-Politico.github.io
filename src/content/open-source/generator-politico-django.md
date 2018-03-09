@@ -1,3 +1,12 @@
-### [generator-politico-django](https://github.com/The-Politico/generator-politico-django)
+### [generator-politico-django-package](https://github.com/The-Politico/generator-politico-django-package)
 
-o you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it?
+This is a Yeoman generator that creates a basic scaffold for a pluggable Django application.
+
+The scaffold comes with:
+
+- a node-based static files build system
+- utilities for publishing to AWS S3
+- a settings conf for pluggable apps
+- pre-made structure for Django Rest Framework and Celery
+- a built-in, preconfigured example project
+- development environment management with [pipenv](https://docs.pipenv.org/)
