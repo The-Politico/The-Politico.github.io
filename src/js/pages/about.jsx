@@ -4,6 +4,8 @@ import staff from '../data/staff.json';
 import Markdown from 'react-markdown';
 import Staffer from '../components/staffer.jsx';
 const mkContent = require('../../content/about/*');
+import QuestionImg from '../../images/question.png';
+import { Link } from 'react-router-dom';
 
 const WhatWeDo = mkContent['WhatWeDo.md'];
 const HowWeWork = mkContent['HowWeWork.md'];
@@ -22,6 +24,25 @@ const About = () => {
       <article class="big-well">
         <h2>Who we are</h2>
         {staffers}
+
+        <div>
+          <div className="staffer">
+            <div className="topline">
+              <div className="profile">
+                <img src={QuestionImg} />
+              </div>
+              <div className="identity">
+                <Link to="/jobs">
+                  <h5>@YOU</h5>
+                  <h4>Future politico</h4>
+                  <p></p>
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className="clear"></div>
+        </div>
+
       </article>
       <div class="clear"></div>
       <article>

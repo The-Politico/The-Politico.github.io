@@ -3284,6 +3284,9 @@ header {
   @media (max-width: 600px) {
     header {
       padding: 10px 0px 10px 20px; } }
+  @media (max-width: 350px) {
+    header {
+      padding-left: 10px; } }
   header .left {
     width: 150px;
     margin-top: 2px;
