@@ -13,7 +13,7 @@ const Staffer = (props) => {
             <img src={props.staffer.image} />
           </div>
           <div className="identity">
-            <a target="blank" href="https://twitter.com/{props.staffer.twitter}">
+            <a target="blank" href={`https://twitter.com/${props.staffer.twitter}`}>
             <h5>@{props.staffer.twitter}</h5>
             <h4>{props.staffer.name}</h4>
             <p>{props.staffer.title}</p>
