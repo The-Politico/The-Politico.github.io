@@ -3365,7 +3365,9 @@ h5 {
     border: 1px solid #9e0000; }
 
 ul {
-  list-style-type: circle; }
+  list-style-type: circle;
+  padding-left: 25px;
+  margin-bottom: 20px; }
 
 .page.home {
   height: 100vh;
@@ -3484,4 +3486,11 @@ ul {
       margin: 0; }
 
 .card {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 25px; }
+
+.page.source h4 {
+  font-weight: normal;
+  font-size: 16px; }
