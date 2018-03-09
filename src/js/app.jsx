@@ -3,7 +3,7 @@ import './../scss/styles.scss';
 import React from 'react';
 import { render } from 'react-dom';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Link
 } from 'react-router-dom';

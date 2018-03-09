@@ -3321,7 +3321,10 @@ header {
 article {
   max-width: 600px;
   margin: 0 auto;
-  padding: 30px 20px 0 0; }
+  padding: 30px 20px 0; }
+  @media (max-width: 450px) {
+    article {
+      padding: 30px 10px 0; } }
   article:first-of-type {
     margin-top: 40px; }
 
