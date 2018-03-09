@@ -21,7 +21,7 @@ const About = () => {
         <h2>What we do</h2>
         <WhatWeDo/>
       </article>
-      <article class="big-well">
+      <article className="big-well">
         <h2>Who we are</h2>
         {staffers}
 
@@ -44,12 +44,12 @@ const About = () => {
         </div>
 
       </article>
-      <div class="clear"></div>
+      <div className="clear"></div>
       <article>
         <h2>How we work</h2>
         <HowWeWork/>
         <div className='card'>
-          <a class="button" href="mailto:jmcclure@politico.com,lmihalik@politico.com?subject=Interactive%20News%20Jobs%20at%20POLITICO">Get in touch</a>
+          <a className="button" href="mailto:jmcclure@politico.com,lmihalik@politico.com?subject=Interactive%20News%20Jobs%20at%20POLITICO">Get in touch</a>
         </div>
       </article>
     </div>

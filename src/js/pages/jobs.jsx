@@ -11,17 +11,23 @@ const Jobs = () => (
     <article>
       <h2>Jobs</h2>
       <About />
-      <div className='card'>
+      <div id="designer" className='card'>
         <Developer />
       </div>
       <div className='card'>
-        <a className="button" href="mailto:jmcclure@politico.com,lmihalik@politico.com?subject=Interactive%20News%20Jobs%20at%20POLITICO">Let's talk</a>
+        <a
+          className="button"
+          href="mailto:jmcclure@politico.com,lmihalik@politico.com?subject=POLITICO%20Interactive%20News%20Jobs%20Developer"
+        >Get in touch</a>
       </div>
-      <div className='card'>
+      <div id="designer" className='card'>
         <Designer />
       </div>
       <div className='card'>
-        <a className="button" href="mailto:jmcclure@politico.com,lmihalik@politico.com?subject=Interactive%20News%20Jobs%20at%20POLITICO">Get in touch</a>
+        <a
+          className="button"
+          href="mailto:jmcclure@politico.com,lmihalik@politico.com?subject=POLITICO%20Interactive%20News%20Jobs%20Designer"
+        >Get in touch</a>
       </div>
     </article>
   </div>
