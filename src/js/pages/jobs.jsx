@@ -15,10 +15,13 @@ const Jobs = () => (
         <Developer />
       </div>
       <div className='card'>
+        <a className="button" href="mailto:jmcclure@politico.com,lmihalik@politico.com?subject=Interactive%20News%20Jobs%20at%20POLITICO">Let's talk</a>
+      </div>
+      <div className='card'>
         <Designer />
       </div>
       <div className='card'>
-        <a class="button" href="mailto:jmcclure@politico.com,lmihalik@politico.com?subject=Interactive%20News%20Jobs%20at%20POLITICO">Get in touch</a>
+        <a className="button" href="mailto:jmcclure@politico.com,lmihalik@politico.com?subject=Interactive%20News%20Jobs%20at%20POLITICO">Get in touch</a>
       </div>
     </article>
   </div>
