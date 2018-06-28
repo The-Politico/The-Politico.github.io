@@ -3,12 +3,10 @@ import Header from '../components/header.jsx';
 import staff from '../data/staff.json';
 import Markdown from 'react-markdown';
 import Staffer from '../components/staffer.jsx';
-const mkContent = require('../../content/about/*');
+import WhatWeDo from '../../content/about/WhatWeDo.md';
+import HowWeWork from '../../content/about/HowWeWork.md';
 import QuestionImg from '../../images/question.png';
 import { Link } from 'react-router-dom';
-
-const WhatWeDo = mkContent['WhatWeDo.md'];
-const HowWeWork = mkContent['HowWeWork.md'];
 
 const About = () => {
   const staffers = staff.map(staffer => (
@@ -24,7 +22,6 @@ const About = () => {
       <article className="big-well">
         <h2>Who we are</h2>
         {staffers}
-
         <div>
           <div className="staffer">
             <div className="topline">

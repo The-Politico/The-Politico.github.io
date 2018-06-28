@@ -1,8 +1,6 @@
 import React from 'react';
-const mkContent = require('../../content/about/profiles/*');
 
 const Staffer = (props) => {
-  const About = mkContent[props.staffer.about];
   return (
     <div>
       <div className="staffer">

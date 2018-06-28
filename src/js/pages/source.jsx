@@ -1,9 +1,11 @@
 import React from 'react';
 import Header from '../components/header.jsx';
-const mkContent = require('../../content/open-source/*');
+import * as mkContent from '../../content/open-source';
 import WhyOpenSource from '../../content/why-open-source.md';
 
 const projects = Object.keys(mkContent);
+
+console.log('projects', mkContent);
 
 const cards = projects.map((f) => {
 

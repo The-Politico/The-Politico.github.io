@@ -7,7 +7,7 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import { CSSTransitionGroup } from 'react-transition-group'
+import { CSSTransitionGroup } from 'react-transition-group';
 import Home from './pages/home';
 import Jobs from './pages/jobs';
 import About from './pages/about';

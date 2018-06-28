@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/header.jsx';
 
 import About from '../../content/jobs/about.md';
-import Designer from '../../content/jobs/graphics-reporter.md';
+import Reporter from '../../content/jobs/graphics-reporter.md';
 
 const Jobs = () => (
   <div className='page jobs'>
@@ -11,7 +11,7 @@ const Jobs = () => (
       <h2>Jobs</h2>
       <About />
       <div id="designer" className='card'>
-        <Designer />
+        <Reporter />
       </div>
       <div className='card'>
         <a
