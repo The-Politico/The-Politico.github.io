@@ -1,5 +1,12 @@
 [
   {
+    "name": "Andrew Briz",
+    "title": "News Apps Developer",
+    "about": "Andrew.md",
+    "image": "https://pbs.twimg.com/profile_images/653393596167639041/kjsPxpeG_400x400.jpg",
+    "twitter": "BrizAndrew"
+  },
+  {
     "name": "Tyler Fisher",
     "title": "Senior News Apps Developer",
     "about": "Tyler.md",
