@@ -358,14 +358,14 @@ function e(e){return e.replace(/^\s*|\s*$/g,"")}exports=module.exports=e,exports
         const ReactMarkdown = require('react-markdown');
         module.exports = function() { return React.createElement(
           ReactMarkdown,
-          {source: `### Graphics reporter\n\nWe're hiring a graphics reporter! We’re looking for someone fluent in data visualization and information design who will add important context to news events and steer the conversation in a new direction with their original reporting.\n\nIf that’s you, you’ll help shape the voice and visual signature of the POLITICO Interactives team. POLITICO’s is a highly collaborative newsroom where you'll work closely with some of the best politics and policy reporters and editors in the industry to pitch, report and build visual stories with a sharp focus.\n\nA typical day may find you tackling a chart on a breaking news deadline, diving into dataset for a story you're reporting that week or fine tuning a graphic component on our elections rig.\n\nYou should be well-versed in the basic techniques of modern dataviz development: basic HTML and CSS as well as JavaScript, including libraries like D3 and, at a stretch, a component library like React. Experience with geospatial tools like QGIS, data processing in Python or R and a familiarity with building graphics in Adobe Illustrator are also preferred, but not required.\n\nMore important than the technical skills you’ll need is the way you strengthen our team. We’re looking for someone who values sharpening other’s ideas as much as pitching their own. You’ll have latitude to determine a lot about the pace and structure of your work, but you’ll also be responsible for keeping in touch with the news cycle. You’ll come to the table with lots of ideas based in a keen reading of the news, and you’ll be flexible while working on an array of deadlines.\n\nPrevious experience in a newsroom is a plus but not required if you can show us you’re ambitious and capable.\n\n If you like asking, "What if we tried...?" get in touch.\n`},
+          {source: `### Check back soon...\n\nWe're hiring! More details will follow soon.\n`},
           null
         ); };
       
 },{"react":"1n8/","react-markdown":"4jR9"}],"M+Ns":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=r(require("react")),t=r(require("../components/header.jsx")),a=r(require("../../content/jobs/about.md")),l=r(require("../../content/jobs/graphics-reporter.md"));function r(e){return e&&e.__esModule?e:{default:e}}var c=function(){return e.default.createElement("div",{className:"page jobs"},e.default.createElement(t.default,null),e.default.createElement("article",null,e.default.createElement("h2",null,"Jobs"),e.default.createElement(a.default,null),e.default.createElement("div",{id:"designer",className:"card"},e.default.createElement(l.default,null)),e.default.createElement("div",{className:"card"},e.default.createElement("a",{className:"button",href:"mailto:jmcclure@politico.com,lmihalik@politico.com?subject=POLITICO%20Interactive%20News%20Jobs%20Graphics%20Reporter"},"Get in touch"),e.default.createElement("a",{className:"button",href:"https://recruiting.ultipro.com/PER1013PCLL/JobBoard/b972ff6a-41b7-4e97-9c71-273c2595c77d/OpportunityDetail?opportunityId=0d3cfe8f-39a0-4b92-b6b5-42825bbd6486"},"Apply"))))},u=c;exports.default=u;
 },{"react":"1n8/","../components/header.jsx":"hZUw","../../content/jobs/about.md":"b/KR","../../content/jobs/graphics-reporter.md":"EVH3"}],"/PdN":[function(require,module,exports) {
-module.exports=[{name:"Andrew Briz",title:"News Apps Developer",about:"Andrew.md",image:"https://pbs.twimg.com/profile_images/653393596167639041/kjsPxpeG_400x400.jpg",twitter:"BrizAndrew"},{name:"Tyler Fisher",title:"Senior News Apps Developer",about:"Tyler.md",image:"https://ca.slack-edge.com/T04CVTYJN-U5U0DHNB1-7b3e16a6f0f0-192",twitter:"tylrfishr"},{name:"Beatrice Jin",title:"Graphics Reporter",about:"Beatrice.md",image:"https://ca.slack-edge.com/T04CVTYJN-UCN5VT7RU-bc45c2ea19d1-192",twitter:"beatricezjin"},{name:"Jon McClure",title:"Interactive News Editor",about:"Jon.md",image:"https://ca.slack-edge.com/T04CVTYJN-U4XV32XKR-fe6813a4313b-192",twitter:"JonRMcClure"},{name:"Lily Mihalik",title:"News Design Editor",about:"Lily.md",image:"https://pbs.twimg.com/profile_images/971899779054751744/8-CpBgmh_400x400.jpg",twitter:"mazet"}];
+module.exports=[{name:"Andrew Briz",title:"News Apps Developer",about:"Andrew.md",image:"https://pbs.twimg.com/profile_images/653393596167639041/kjsPxpeG_400x400.jpg",twitter:"BrizAndrew"},{name:"Beatrice Jin",title:"Graphics Reporter",about:"Beatrice.md",image:"https://ca.slack-edge.com/T04CVTYJN-UCN5VT7RU-bc45c2ea19d1-192",twitter:"beatricezjin"},{name:"Jon McClure",title:"Interactive News Editor",about:"Jon.md",image:"https://ca.slack-edge.com/T04CVTYJN-U4XV32XKR-fe6813a4313b-192",twitter:"JonRMcClure"},{name:"Lily Mihalik",title:"News Design Editor",about:"Lily.md",image:"https://pbs.twimg.com/profile_images/1084285300719919105/zx2RvLsP_400x400.jpg",twitter:"mazet"}];
 },{}],"CAbf":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=t(require("react"));function t(e){return e&&e.__esModule?e:{default:e}}var a=function(t){return e.default.createElement("div",null,e.default.createElement("div",{className:"staffer"},e.default.createElement("div",{className:"topline"},e.default.createElement("div",{className:"profile"},e.default.createElement("img",{src:t.staffer.image})),e.default.createElement("div",{className:"identity"},e.default.createElement("a",{target:"blank",href:"https://twitter.com/".concat(t.staffer.twitter)},e.default.createElement("h5",null,"@",t.staffer.twitter),e.default.createElement("h4",null,t.staffer.name),e.default.createElement("p",null,t.staffer.title))))),e.default.createElement("div",{className:"clear"}))},l=a;exports.default=l;
 },{"react":"1n8/"}],"6mRg":[function(require,module,exports) {
@@ -392,7 +392,17 @@ module.exports=[{name:"Andrew Briz",title:"News Apps Developer",about:"Andrew.md
 module.exports="/question.878435fb.png";
 },{}],"p9Ud":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=m(require("react")),t=m(require("../components/header.jsx")),a=m(require("../data/staff.json")),l=m(require("react-markdown")),r=m(require("../components/staffer.jsx")),u=m(require("../../content/about/WhatWeDo.md")),n=m(require("../../content/about/HowWeWork.md")),c=m(require("../../images/question.png")),d=require("react-router-dom");function m(e){return e&&e.__esModule?e:{default:e}}var f=function(){var l=a.default.map(function(t){return e.default.createElement(r.default,{staffer:t})});return e.default.createElement("div",{className:"page about"},e.default.createElement(t.default,null),e.default.createElement("article",null,e.default.createElement("h2",null,"What we do"),e.default.createElement(u.default,null)),e.default.createElement("article",{className:"big-well"},e.default.createElement("h2",null,"Who we are"),l,e.default.createElement("div",null,e.default.createElement("div",{className:"staffer"},e.default.createElement("div",{className:"topline"},e.default.createElement("div",{className:"profile"},e.default.createElement("img",{src:c.default})),e.default.createElement("div",{className:"identity"},e.default.createElement(d.Link,{to:"/jobs"},e.default.createElement("h5",null,"@YOU"),e.default.createElement("h4",null,"Future politico"),e.default.createElement("p",null))))),e.default.createElement("div",{className:"clear"}))),e.default.createElement("div",{className:"clear"}),e.default.createElement("article",null,e.default.createElement("h2",null,"How we work"),e.default.createElement(n.default,null),e.default.createElement("div",{className:"card"},e.default.createElement("a",{className:"button",href:"mailto:jmcclure@politico.com,lmihalik@politico.com?subject=Interactive%20News%20Jobs%20at%20POLITICO"},"Get in touch"))))},i=f;exports.default=i;
-},{"react":"1n8/","../components/header.jsx":"hZUw","../data/staff.json":"/PdN","react-markdown":"4jR9","../components/staffer.jsx":"CAbf","../../content/about/WhatWeDo.md":"6mRg","../../content/about/HowWeWork.md":"LPr+","../../images/question.png":"eLs7","react-router-dom":"obMO"}],"/AUs":[function(require,module,exports) {
+},{"react":"1n8/","../components/header.jsx":"hZUw","../data/staff.json":"/PdN","react-markdown":"4jR9","../components/staffer.jsx":"CAbf","../../content/about/WhatWeDo.md":"6mRg","../../content/about/HowWeWork.md":"LPr+","../../images/question.png":"eLs7","react-router-dom":"obMO"}],"+NyH":[function(require,module,exports) {
+
+        const React = require('react');
+        const ReactMarkdown = require('react-markdown');
+        module.exports = function() { return React.createElement(
+          ReactMarkdown,
+          {source: `### [secondlunch](https://github.com/The-Politico/secondlunch)\n\nA successor to NPR's [Lunchbox](https://blog.apps.npr.org/lunchbox/), reimplemented with reusable components.\n\n[Read the docs](https://github.com/The-Politico/secondlunch).\n`},
+          null
+        ); };
+      
+},{"react":"1n8/","react-markdown":"4jR9"}],"/AUs":[function(require,module,exports) {
 
         const React = require('react');
         const ReactMarkdown = require('react-markdown');
@@ -432,6 +442,16 @@ module.exports="/question.878435fb.png";
           null
         ); };
       
+},{"react":"1n8/","react-markdown":"4jR9"}],"mntQ":[function(require,module,exports) {
+
+        const React = require('react');
+        const ReactMarkdown = require('react-markdown');
+        module.exports = function() { return React.createElement(
+          ReactMarkdown,
+          {source: `### [markdown-react-loader](https://github.com/The-Politico/markdown-react-loader)\n\nA Webpack loader that loads markdown files as React components with templating context.\n\n[Read the docs](https://github.com/The-Politico/markdown-react-loader).\n`},
+          null
+        ); };
+      
 },{"react":"1n8/","react-markdown":"4jR9"}],"0oFh":[function(require,module,exports) {
 
         const React = require('react');
@@ -448,7 +468,7 @@ module.exports="/question.878435fb.png";
         const ReactMarkdown = require('react-markdown');
         module.exports = function() { return React.createElement(
           ReactMarkdown,
-          {source: `### [generator-politico-interactives](https://github.com/The-Politico/generator-politico-interactives)\n\nThis is the Yeoman generator that all of our standalone front-end projects are borne from. It gives you the following:\n\n- Scaffolds your project’s development directory.\n- Compiles SCSS and bundles JS written in either ES5 or ES2015 using webpack.\n- Renders HTML templates with custom context.\n- Creates responsive image sets optimized for mobile devices.\n- Publishes your project to an Amazon S3 bucket.\n\n\n[Read the docs](http://generator-politico-interactives.readthedocs.io/en/latest/) for more info!\n`},
+          {source: `### [generator-politico-interactives](https://github.com/The-Politico/generator-politico-interactives)\n\nThis is the Yeoman generator that all of our standalone front-end projects are borne from. It gives you the following:\n\n- Scaffolds your project’s development directory.\n- Compiles SCSS and bundles JS written in either ES5 or ES2015 using webpack.\n- Renders HTML templates with custom context.\n- Creates responsive image sets optimized for mobile devices.\n- Publishes your project to an Amazon S3 bucket.\n\n\n[Read the docs](http://generator-politico-interactives.readthedocs.io/en/latest/).\n`},
           null
         ); };
       
@@ -468,7 +488,17 @@ module.exports="/question.878435fb.png";
         const ReactMarkdown = require('react-markdown');
         module.exports = function() { return React.createElement(
           ReactMarkdown,
-          {source: `### [django-slackchat-serializer](https://github.com/The-Politico/django-slackchat-serializer)\n\nA pluggable Django app to serialize chat messages in a Slack channel. Works as the bridge between Slack and your CMS or any custom renderer to publish your slackchats.\n\n[Read the docs.](http://django-slackchat-serializer.readthedocs.io/en/latest/index.html)\n`},
+          {source: `### [django-slackchat-serializer](https://github.com/The-Politico/django-slackchat-serializer)\n\nA pluggable Django app to serialize chat messages in a Slack channel. Works as the bridge between Slack and your CMS or any custom renderer to publish your slackchats.\n\n[Read the docs](http://django-slackchat-serializer.readthedocs.io/en/latest/index.html).\n`},
+          null
+        ); };
+      
+},{"react":"1n8/","react-markdown":"4jR9"}],"bjEF":[function(require,module,exports) {
+
+        const React = require('react');
+        const ReactMarkdown = require('react-markdown');
+        module.exports = function() { return React.createElement(
+          ReactMarkdown,
+          {source: `### [django-slack-forms](https://github.com/The-Politico/django-slack-forms)\n\nCreate and process custom Slack Dialogs with data validation.\n\n[Read the docs](https://github.com/The-Politico/django-slack-forms).\n`},
           null
         ); };
       
@@ -482,13 +512,23 @@ module.exports="/question.878435fb.png";
           null
         ); };
       
+},{"react":"1n8/","react-markdown":"4jR9"}],"IbCf":[function(require,module,exports) {
+
+        const React = require('react');
+        const ReactMarkdown = require('react-markdown');
+        module.exports = function() { return React.createElement(
+          ReactMarkdown,
+          {source: `### [django-foreignform](https://github.com/The-Politico/django-foreignform)\n\nDynamic fieldsets for your Django ModelAdmin using JSON schema and react-jsonschema-form.\n\nDefine dynamic fieldsets with react-jsonschema-form. Store the schema on a foreign-keyed model. Serialize the fieldsets' back to a native Django JSON field in the admin.\n\n[Read the docs](https://github.com/The-Politico/django-foreignform).\n`},
+          null
+        ); };
+      
 },{"react":"1n8/","react-markdown":"4jR9"}],"VwCa":[function(require,module,exports) {
 
         const React = require('react');
         const ReactMarkdown = require('react-markdown');
         module.exports = function() { return React.createElement(
           ReactMarkdown,
-          {source: `### [django-crosswalk](https://github.com/The-Politico/django-crosswalk)\n\n\nDjango-crosswalk is an entity service that provides a few basic, but highly extensible tools to resolve entity IDs and create linked records of known aliases.\n\nWe use it to standardize IDs across datasets, to create a master crosswalk of all known aliases and as a reference library for entity metadata, augmenting libraries like [us](https://pypi.python.org/pypi/us).\n\n[Read the docs](http://django-crosswalk.readthedocs.io/en/latest/) for more info!\n`},
+          {source: `### [django-crosswalk](https://github.com/The-Politico/django-crosswalk)\n\n\nDjango-crosswalk is an entity service that provides a few basic, but highly extensible tools to resolve entity IDs and create linked records of known aliases.\n\nWe use it to standardize IDs across datasets, to create a master crosswalk of all known aliases and as a reference library for entity metadata, augmenting libraries like [us](https://pypi.python.org/pypi/us).\n\n[Read the docs](http://django-crosswalk.readthedocs.io/en/latest/).\n`},
           null
         ); };
       
@@ -508,13 +548,13 @@ module.exports="/question.878435fb.png";
         const ReactMarkdown = require('react-markdown');
         module.exports = function() { return React.createElement(
           ReactMarkdown,
-          {source: `We believe that collaboration across the news industry is key to solving our common problems. That's why, when we solve a technical problem that we think others can use, we open source our work. \n\nWhat you'll find below are Yeoman generators that scaffold out the types of projects many newsrooms do, such as standalone interactive pages and reusable chart modules. You'll find Django projects that model out election data. And you'll find handy little tools that just do One Thing Well.\n\nFor any of the projects listed below, we welcome collaboration and feedback. Try them out, open issues and submit pull requests!`},
+          {source: `We believe that collaboration across the news industry is key to solving our common problems. That's why, when we solve a technical problem that we think others can use, we open source our work. \n\nFor any of the projects listed below, we welcome collaboration and feedback. Try them out, open issues and submit pull requests!\n`},
           null
         ); };
       
 },{"react":"1n8/","react-markdown":"4jR9"}],"w1n7":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=m(require("react")),t=m(require("../components/header.jsx")),r=m(require("./../../content/open-source/politico-style.md")),n=m(require("./../../content/open-source/politico-civic.md")),a=m(require("./../../content/open-source/parcel-plugin-react-markdown.md")),o=m(require("./../../content/open-source/markslack.md")),l=m(require("./../../content/open-source/gspan.md")),c=m(require("./../../content/open-source/generator-politico-interactives.md")),u=m(require("./../../content/open-source/generator-politico-django.md")),i=m(require("./../../content/open-source/django-slackchat-serializer.md")),d=m(require("./../../content/open-source/django-kanban-budget.md")),s=m(require("./../../content/open-source/django-crosswalk.md")),p=m(require("./../../content/open-source/archieml-pipe.md")),f=m(require("../../content/why-open-source.md"));function m(e){return e&&e.__esModule?e:{default:e}}var g={};g.PoliticoStyle=r.default,g.PoliticoCivic=n.default,g.ParcelPluginReactMarkdown=a.default,g.Markslack=o.default,g.Gspan=l.default,g.GeneratorPoliticoInteractives=c.default,g.GeneratorPoliticoDjango=u.default,g.DjangoSlackchatSerializer=i.default,g.DjangoKanbanBudget=d.default,g.DjangoCrosswalk=s.default,g.ArchiemlPipe=p.default;var q=Object.keys(g);console.log("projects",g);var v=q.map(function(t){var r=g[t];return e.default.createElement("div",{className:"card"},e.default.createElement(r,null))}),j=function(){return e.default.createElement("div",{className:"page source"},e.default.createElement(t.default,null),e.default.createElement("article",null,e.default.createElement("h2",null,"Why we open source"),e.default.createElement(f.default,null),e.default.createElement("h2",null,"Our stuff"),v))},k=j;exports.default=k;
-},{"react":"1n8/","../components/header.jsx":"hZUw","./../../content/open-source/politico-style.md":"/AUs","./../../content/open-source/politico-civic.md":"0lxB","./../../content/open-source/parcel-plugin-react-markdown.md":"Mmpo","./../../content/open-source/markslack.md":"VMYE","./../../content/open-source/gspan.md":"0oFh","./../../content/open-source/generator-politico-interactives.md":"7rbQ","./../../content/open-source/generator-politico-django.md":"Kw8S","./../../content/open-source/django-slackchat-serializer.md":"mOyW","./../../content/open-source/django-kanban-budget.md":"mIOh","./../../content/open-source/django-crosswalk.md":"VwCa","./../../content/open-source/archieml-pipe.md":"m8Yq","../../content/why-open-source.md":"3XuA"}],"qiyG":[function(require,module,exports) {
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=j(require("react")),r=j(require("../components/header.jsx")),t=j(require("./../../content/open-source/secondlunch.md")),o=j(require("./../../content/open-source/politico-style.md")),n=j(require("./../../content/open-source/politico-civic.md")),a=j(require("./../../content/open-source/parcel-plugin-react-markdown.md")),c=j(require("./../../content/open-source/markslack.md")),u=j(require("./../../content/open-source/markdown-react-loader.md")),l=j(require("./../../content/open-source/gspan.md")),d=j(require("./../../content/open-source/generator-politico-interactives.md")),i=j(require("./../../content/open-source/generator-politico-django.md")),s=j(require("./../../content/open-source/django-slackchat-serializer.md")),f=j(require("./../../content/open-source/django-slack-forms.md")),m=j(require("./../../content/open-source/django-kanban-budget.md")),p=j(require("./../../content/open-source/django-foreignform.md")),g=j(require("./../../content/open-source/django-crosswalk.md")),q=j(require("./../../content/open-source/archieml-pipe.md")),k=j(require("../../content/why-open-source.md"));function j(e){return e&&e.__esModule?e:{default:e}}var v={};v.Secondlunch=t.default,v.PoliticoStyle=o.default,v.PoliticoCivic=n.default,v.ParcelPluginReactMarkdown=a.default,v.Markslack=c.default,v.MarkdownReactLoader=u.default,v.Gspan=l.default,v.GeneratorPoliticoInteractives=d.default,v.GeneratorPoliticoDjango=i.default,v.DjangoSlackchatSerializer=s.default,v.DjangoSlackForms=f.default,v.DjangoKanbanBudget=m.default,v.DjangoForeignform=p.default,v.DjangoCrosswalk=g.default,v.ArchiemlPipe=q.default;var h=Object.keys(v);h.sort();var w=h.map(function(r){var t=v[r];return e.default.createElement("div",{className:"card"},e.default.createElement(t,null))}),E=function(){return e.default.createElement("div",{className:"page source"},e.default.createElement(r.default,null),e.default.createElement("article",null,e.default.createElement("h2",null,"Why we open source"),e.default.createElement(k.default,null),e.default.createElement("h2",null,"Our stuff"),w))},P=E;exports.default=P;
+},{"react":"1n8/","../components/header.jsx":"hZUw","./../../content/open-source/secondlunch.md":"+NyH","./../../content/open-source/politico-style.md":"/AUs","./../../content/open-source/politico-civic.md":"0lxB","./../../content/open-source/parcel-plugin-react-markdown.md":"Mmpo","./../../content/open-source/markslack.md":"VMYE","./../../content/open-source/markdown-react-loader.md":"mntQ","./../../content/open-source/gspan.md":"0oFh","./../../content/open-source/generator-politico-interactives.md":"7rbQ","./../../content/open-source/generator-politico-django.md":"Kw8S","./../../content/open-source/django-slackchat-serializer.md":"mOyW","./../../content/open-source/django-slack-forms.md":"bjEF","./../../content/open-source/django-kanban-budget.md":"mIOh","./../../content/open-source/django-foreignform.md":"IbCf","./../../content/open-source/django-crosswalk.md":"VwCa","./../../content/open-source/archieml-pipe.md":"m8Yq","../../content/why-open-source.md":"3XuA"}],"qiyG":[function(require,module,exports) {
 "use strict";require("./../scss/styles.scss");var e=c(require("react")),t=require("react-dom"),r=require("react-router-dom"),a=require("react-transition-group"),u=c(require("./pages/home")),n=c(require("./pages/jobs")),o=c(require("./pages/about")),l=c(require("./pages/source"));function c(e){return e&&e.__esModule?e:{default:e}}var s=function(){return e.default.createElement(r.HashRouter,null,e.default.createElement("div",null,e.default.createElement(r.Route,{exact:!0,path:"/",component:u.default}),e.default.createElement(r.Route,{exact:!0,path:"/jobs",component:n.default}),e.default.createElement(r.Route,{exact:!0,path:"/about",component:o.default}),e.default.createElement(r.Route,{exact:!0,path:"/open-source",component:l.default})))};(0,t.render)(e.default.createElement(s,null),document.getElementById("app"));
 },{"./../scss/styles.scss":"mAbx","react":"1n8/","react-dom":"NKHc","react-router-dom":"obMO","react-transition-group":"RvhK","./pages/home":"yI/M","./pages/jobs":"M+Ns","./pages/about":"p9Ud","./pages/source":"w1n7"}]},{},["qiyG"], null)
-//# sourceMappingURL=/app.6b2b8e8c.map
+//# sourceMappingURL=/app.fdbfad96.map

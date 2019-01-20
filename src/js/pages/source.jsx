@@ -5,7 +5,7 @@ import WhyOpenSource from '../../content/why-open-source.md';
 
 const projects = Object.keys(mkContent);
 
-console.log('projects', mkContent);
+projects.sort();
 
 const cards = projects.map((f) => {
 

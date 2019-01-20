@@ -5,4 +5,4 @@ Django-crosswalk is an entity service that provides a few basic, but highly exte
 
 We use it to standardize IDs across datasets, to create a master crosswalk of all known aliases and as a reference library for entity metadata, augmenting libraries like [us](https://pypi.python.org/pypi/us).
 
-[Read the docs](http://django-crosswalk.readthedocs.io/en/latest/) for more info!
+[Read the docs](http://django-crosswalk.readthedocs.io/en/latest/).

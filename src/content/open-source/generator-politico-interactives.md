@@ -9,4 +9,4 @@ This is the Yeoman generator that all of our standalone front-end projects are b
 - Publishes your project to an Amazon S3 bucket.
 
 
-[Read the docs](http://generator-politico-interactives.readthedocs.io/en/latest/) for more info!
+[Read the docs](http://generator-politico-interactives.readthedocs.io/en/latest/).
