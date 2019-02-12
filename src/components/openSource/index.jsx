@@ -2,6 +2,7 @@ import * as mkContent from 'Content/open-source';
 
 import Header from 'Components/common/Header';
 import React from 'react';
+import ContactButtons from 'Components/common/ContactButtons';
 import WhyOpenSource from 'Content/why-open-source.md';
 import classnames from 'classnames';
 
@@ -29,6 +30,7 @@ const Source = () => {
         <WhyOpenSource />
         <h2>Our work</h2>
         {cards}
+        <ContactButtons />
       </article>
     </div>
   );
