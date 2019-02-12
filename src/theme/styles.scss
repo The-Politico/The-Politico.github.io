@@ -4,10 +4,14 @@
 @import "bulma";
 @import "elements";
 
+body {
+  background-color: #fafafb;
+}
 a {
   color: $politico-red;
+  line-height: 1;
   &:hover {
     color: $politico-red;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }

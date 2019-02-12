@@ -4,20 +4,32 @@
 
 .component :global {
   header {
-    height: 6rem;
-    border-bottom: solid #ddd 1px;
+    height: 4rem;
+    background-color: white;
+
+    @media (min-width: 600px) {
+      height: 6rem;
+    }
 
     position: relative;
     .global-brand {
       position: absolute;
-      left: 50%;
+      left: 33%;
       top: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
 
+      @media (min-width: 420px) {
+        left: 50%;
+      }
+
       .icon-politico::before {
-        font-size: 34px;
+        font-size: 18px;
         text-align: center;
+
+        @media (min-width: 600px) {
+          font-size: 34px;
+        }
       }
     }
 
@@ -27,13 +39,21 @@
       letter-spacing: 1px;
       font-size: 11px;
       margin-right: 20px;
-      line-height: 6rem;
+      line-height: 4rem;
+      @media (min-width: 600px) {
+        line-height: 6rem;
+      }
     }
 
     .home {
-      line-height: 6rem;
+      line-height: 4rem;
       margin-left: 20px;
       display: inline-block;
+      margin-top: 4px;
+
+      @media (min-width: 600px) {
+        line-height: 6rem;
+      }
       svg {
         fill: $politico-red;
       }
@@ -41,6 +61,7 @@
 
     nav {
       float: right;
+      @extend %body-font;
     }
   }
 }

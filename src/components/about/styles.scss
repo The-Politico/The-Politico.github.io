@@ -7,19 +7,12 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-  h2 {
-    @extend %display-font;
-    font-size: 46px;
-    margin-top: 4rem;
-  }
 
   .staffer {
+    margin: 10px 0;
+
     h5 {
       font-size: 0.85rem;
-    }
-    margin: 10px 0;
-    @media (max-width: 600px) {
-      margin: 30px 0;
     }
 
     a {
@@ -36,7 +29,10 @@
 
       img {
         border-radius: 50%;
-        width: 95px;
+        width: 65px;
+        @media (min-width: 650px) {
+          width: 95px;
+        }
       }
     }
     .identity {
@@ -44,19 +40,15 @@
       display: inline-block;
       padding: 10px 20px;
 
-      @media (max-width: 600px) {
-        padding: 0 15px;
-      }
-
       h4 {
         margin: 0;
-        font-size: 32px;
+        font-size: 25px;
         line-height: 1;
         font-weight: 200;
         @extend %body-font;
 
-        @media (max-width: 600px) {
-          font-size: 26px;
+        @media (min-width: 650px) {
+          font-size: 32px;
         }
       }
       p {

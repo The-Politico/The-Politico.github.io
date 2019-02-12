@@ -28,7 +28,7 @@
     }
   }
   h1 {
-    @extend %display-font;
+    @extend %body-font;
     font-size: 18vw;
     font-weight: 900;
     letter-spacing: 0;
