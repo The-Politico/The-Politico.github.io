@@ -1,7 +1,5 @@
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import {
-  Link
-} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React from 'react';
 import classnames from 'classnames';
 import { component } from './styles.scss';
@@ -11,16 +9,11 @@ const Header = () => (
     <section className='hero is-fullheight'>
       <div className='center-box'>
         <div className='brand'>
-          <b className='icon icon-politico' />
+          <Link to='https://www.politico.com/'>
+            <b className='icon icon-politico' />
+          </Link>
         </div>
-        <h1>
-          <span>interactive</span>
-          <span>interactive</span>
-          <span>interactive</span>
-          <span>interactive</span>
-          <span>interactive</span>
-          <span>news.</span>
-        </h1>
+        <h1>Interactive news</h1>
         <nav className='links'>
           <Link to='/about'>Our team</Link>
           <Link to='/jobs'>Jobs</Link>

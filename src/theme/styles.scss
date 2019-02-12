@@ -1,5 +1,13 @@
-@import 'colors';
-@import 'fonts';
-@import 'mixins';
-@import 'bulma';
-@import 'elements';
+@import "colors";
+@import "fonts";
+@import "mixins";
+@import "bulma";
+@import "elements";
+
+a {
+  color: $politico-red;
+  &:hover {
+    color: $politico-red;
+    text-decoration: underline;
+  }
+}

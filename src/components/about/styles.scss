@@ -1,60 +1,65 @@
-@import '~Theme/fonts';
-@import '~Theme/mixins';
+@import "~Theme/fonts";
+@import "~Theme/mixins";
 
-.component :global{
-  h2{
-    font-family: $din;
+.component :global {
+  .flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  h2 {
+    @extend %display-font;
     font-size: 46px;
+    margin-top: 4rem;
   }
 
-  .staffer{
-    margin: 20px 0;
-
-    @media(max-width: 600px){
-    margin: 30px 0;
+  .staffer {
+    h5 {
+      font-size: 0.85rem;
+    }
+    margin: 10px 0;
+    @media (max-width: 600px) {
+      margin: 30px 0;
     }
 
-    a{
+    a {
       color: #282828;
     }
 
-    .topline{
+    .topline {
       @include clearfix;
       @extend %body-font;
     }
-    .profile{
+    .profile {
       float: left;
       display: inline-block;
-      width: 90px;
-      img {
-        width: 100%;
-        border-radius: 50%;
-      }
 
-      @media(max-width: 600px){
-      width: 75px;
+      img {
+        border-radius: 50%;
+        width: 95px;
       }
     }
-    .identity{
+    .identity {
       float: left;
       display: inline-block;
       padding: 10px 20px;
 
-      @media(max-width: 600px){
+      @media (max-width: 600px) {
         padding: 0 15px;
       }
 
-      h4{
+      h4 {
         margin: 0;
         font-size: 32px;
         line-height: 1;
         font-weight: 200;
+        @extend %body-font;
 
-        @media(max-width: 600px){
+        @media (max-width: 600px) {
           font-size: 26px;
         }
       }
-      p{
+      p {
         margin: 0;
       }
     }

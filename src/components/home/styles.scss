@@ -1,103 +1,88 @@
-@import '~Theme/colors';
-@import '~Theme/fonts';
+@import "~Theme/colors";
+@import "~Theme/fonts";
 
-.component :global{
+.component :global {
   height: 100vh;
   padding: 0;
   background-color: $politico-red;
   color: white;
-  text-align: center;
 
-  .center-box{
-    margin: 9vh 0 0 15vh;
-    display: inline-block;
+  .center-box {
+    padding: 21% 0;
     text-align: left;
+    display: block;
+    margin: 0 auto;
 
-    @media(max-width:600px){
-      margin: 15vh 0 0 0;
+    @media (max-width: 600px) {
+      margin: 24vh 0 0 0;
       padding: 0 10px;
     }
   }
-  .brand{
+  .brand {
     text-align: left;
-    padding:0 0 0 10px;
+    padding-left: 5px;
+
+    a {
+      color: white;
+      cursor: pointer;
+    }
   }
-  h1{
+  h1 {
     @extend %display-font;
-    margin: 0px 0 20px;
-    font-size: 10vw;
+    font-size: 18vw;
     font-weight: 900;
     letter-spacing: 0;
-    line-height: 6.6vw;
+    margin-top: 5px;
+    line-height: 0.8;
 
-    @media(max-width:600px){
-      margin: 10px 0 0 -7px;
-      font-size: 22vw;
+    @media (min-width: 600px) {
+      font-size: 10vw;
       font-weight: 900;
       letter-spacing: 0;
-      line-height: 13vw;
+      line-height: 0.8;
     }
-
-    span{
-      display: block;
-      &:nth-child(1){
-        opacity: 0.05;
-      }
-      &:nth-child(2){
-        opacity: 0.1;
-      }
-      &:nth-child(3){
-        opacity: 0.2;
-      }
-      &:nth-child(4){
-        opacity: 0.3;
-      }
-      &:nth-child(5){
-        opacity: 0.5;
-      }
-    }
-
   }
   .links {
     @extend %body-font;
-    margin: 20px auto;
-    font-size: 24px;
+    margin: 0px auto;
+    font-size: 18px;
 
-    @media(max-width: 768px){
-      font-size: 18px;
+    @media (min-width: 768px) {
+      font-size: 24px;
     }
 
-    @media(max-width: 600px){
-      padding-left: 15px;
-    }
-
-    a{
+    a {
       margin-right: 50px;
       opacity: 1;
       font-weight: normal;
-      transition: all .2s;
+      transition: all 0.2s;
       text-decoration: none;
       color: #fff;
+      font-size: 1.2rem;
       cursor: pointer;
-      &:hover{
+
+      @media (min-width: 600px) {
+        font-size: 1.4rem;
+      }
+      &:hover {
         text-decoration: underline;
       }
-      &:last-child{
+      &:last-child {
         margin-right: 0;
       }
     }
   }
-  .github{
+  .github {
     text-align: center;
     font-size: 36px;
     position: fixed;
     bottom: 15px;
     right: 20px;
-    a{
+    a {
       color: white;
       opacity: 0.4;
       cursor: pointer;
-      &:hover{
+      &:hover {
         opacity: 1;
       }
     }
