@@ -11,7 +11,7 @@ const projects = Object.keys(mkContent);
 
 projects.sort();
 
-const cards = projects.map((f) => {
+const cards = projects.map(f => {
   const Component = mkContent[f];
   return (
     <div className='card'>
@@ -27,7 +27,7 @@ const Source = () => {
       <article>
         <h2>Why we open source</h2>
         <WhyOpenSource />
-        <h2>Our stuff</h2>
+        <h2>Our work</h2>
         {cards}
       </article>
     </div>
