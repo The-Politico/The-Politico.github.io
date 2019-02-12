@@ -13,7 +13,7 @@ const Header = () => (
             <b className='icon icon-politico' />
           </Link>
         </div>
-        <h1>Interactive news</h1>
+        <h1>Interactive News</h1>
         <nav className='links'>
           <Link to='/about'>Our team</Link>
           <Link to='/jobs'>Jobs</Link>
