@@ -18,7 +18,6 @@ const About = () => {
       <article>
         <h2>What we do</h2>
         <WhatWeDo />
-        <ContactButtons />
       </article>
       <article className='big-well'>
         <h2>Who we are</h2>
