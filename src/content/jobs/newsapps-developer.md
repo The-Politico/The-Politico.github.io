@@ -2,7 +2,7 @@
 
 POLITICO seeks a newsapps developer to join our Interactive News team.
 
-We’re looking for a skilled coder to help build new platforms and tools that will help drive our politics and policy reporting.
+We’re looking for a skilled coder to build new platforms and tools that will help drive our politics and policy reporting.
 
 In 2020, the Interactive News team will help lead our coverage of the presidential and congressional campaigns. We are designing this position to be a critical part of that project, laying the groundwork in 2019 for our coverage in 2020. Our tent-pole election night pages are especially high stakes and command huge, engaged audiences. You’ll be the type of person who appreciates that challenge and is motivated by the opportunity to lead POLITICO’s marquee on our busiest nights, working alongside the rest of the Interactive News team.
 
