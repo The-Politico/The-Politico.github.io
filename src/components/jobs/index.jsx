@@ -13,13 +13,12 @@ const Jobs = () => (
   <div className={classnames(component, 'page jobs')}>
     <Header />
     <article>
-      <h1>Jobs</h1>
       <div id='designer' className='card'>
         <DeveloperJob />
+        <ContactButtons />
         <WhyInteractive />
         <WhyPolitico />
       </div>
-      <ContactButtons />
     </article>
   </div>
 );

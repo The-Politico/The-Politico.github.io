@@ -6,6 +6,7 @@
 
 body {
   background-color: #fafafb;
+  font-size: 1.2rem;
 }
 a {
   color: $politico-red;
@@ -14,4 +15,8 @@ a {
     color: $politico-red;
     text-decoration: none;
   }
+}
+
+.spacer-fix {
+  margin-top: -2rem;
 }
