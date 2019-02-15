@@ -24,11 +24,11 @@ const Header = props => {
           </Link>
         </div>
         <div className='global-brand'>
-          <Link to='https://www.politico.com/'>
+          <a href='https://www.politico.com/'>
             <div className='brand'>
               <b className='icon icon-politico' />
             </div>
-          </Link>
+          </a>
         </div>
         <nav>
           <Link to='/about'>
