@@ -1,0 +1,20 @@
+.component :global {
+  h4 {
+    font-weight: normal;
+    font-size: 18px;
+
+    @media (min-width: 600px) {
+      font-size: 23px;
+    }
+  }
+  .card {
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  h2 + .card {
+    margin-top: -0.75rem;
+  }
+}

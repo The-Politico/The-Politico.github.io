@@ -1,0 +1,22 @@
+@import "colors";
+@import "fonts";
+@import "mixins";
+@import "bulma";
+@import "elements";
+
+body {
+  background-color: #fafafb;
+  font-size: 1.2rem;
+}
+a {
+  color: $politico-red;
+  line-height: 1;
+  &:hover {
+    color: $politico-red;
+    text-decoration: none;
+  }
+}
+
+.spacer-fix {
+  margin-top: -2rem;
+}

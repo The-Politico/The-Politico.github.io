@@ -1,0 +1,10 @@
+@import "~politico-style/scss/base/theme/fonts";
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT");
+
+%display-font {
+  font-family: "Old Standard TT", serif;
+}
+
+%body-font {
+  font-family: $din;
+}

@@ -1,0 +1,90 @@
+@import "~Theme/colors";
+@import "~Theme/fonts";
+
+.component :global {
+  height: 100vh;
+  padding: 0;
+  background-color: $politico-red;
+  color: white;
+
+  .center-box {
+    padding: 21% 0;
+    text-align: left;
+    display: block;
+    margin: 0 auto;
+
+    @media (max-width: 600px) {
+      margin: 24vh 0 0 0;
+      padding: 0 10px;
+    }
+  }
+  .brand {
+    text-align: left;
+    padding-left: 5px;
+
+    a {
+      color: white;
+      cursor: pointer;
+    }
+  }
+  h1 {
+    @extend %body-font;
+    font-size: 18vw;
+    font-weight: 900;
+    letter-spacing: 0;
+    margin-top: 5px;
+    line-height: 0.8;
+
+    @media (min-width: 600px) {
+      font-size: 10vw;
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 0.8;
+    }
+  }
+  .links {
+    @extend %body-font;
+    margin: 0px auto;
+    font-size: 18px;
+
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
+
+    a {
+      margin-right: 50px;
+      opacity: 1;
+      font-weight: normal;
+      transition: all 0.2s;
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
+      cursor: pointer;
+
+      @media (min-width: 600px) {
+        font-size: 1.4rem;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .github {
+    text-align: center;
+    font-size: 36px;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    a {
+      color: white;
+      opacity: 0.4;
+      cursor: pointer;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
