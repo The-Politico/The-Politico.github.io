@@ -15,8 +15,8 @@ const Header = () => (
         </div>
         <h1>Interactive News</h1>
         <nav className='links'>
+          <Link to='/jobs'>Jobs✨</Link>
           <Link to='/about'>Our team</Link>
-          <Link to='/jobs'>Jobs</Link>
           <Link to='/open-source'>Open source</Link>
         </nav>
         <div className='github'>

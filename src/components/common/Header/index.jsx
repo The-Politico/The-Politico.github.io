@@ -31,13 +31,13 @@ const Header = props => {
           </a>
         </div>
         <nav>
+          <span>
+            <Link to='/jobs'>Jobs</Link>
+          </span>
           <Link to='/about'>
             <span className='is-hidden-mobile'>Our team</span>
             <span className='is-hidden-tablet'>Team</span>
           </Link>
-          <span>
-            <Link to='/jobs'>Jobs</Link>
-          </span>
           <Link to='/open-source'>
             <span className='is-hidden-mobile'>Open source</span>
             <span className='is-hidden-tablet'>Code</span>
