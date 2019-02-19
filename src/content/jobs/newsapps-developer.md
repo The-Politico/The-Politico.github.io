@@ -16,10 +16,10 @@ Not required, but make sure you tell us if you've:
 
 -   Covered politics, elections, campaign finance or polling
 -   Developed open source software
--   Worked with public data like census or
+-   Built applications that make heavy use of public data like datasets from state or municipal governments or from federal agencies like the U.S. Census Bureau
 -   Experience or training in applied statistical methods
 -   Experience in an unrelated industry (tell us the skills you think will transfer over)
 
-We may hire this position as a Senior News Applications Developer, depending on your skill and experience.
+We may hire this position as a Senior News Applications Developer, depending on your skill-level and experience.
 
 It’s a tremendous time to be working in a D.C. newsroom, and POLITICO’s is unique among the rest. Join us!
