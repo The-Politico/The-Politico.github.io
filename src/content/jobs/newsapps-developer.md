@@ -10,7 +10,7 @@ Elections are just one part of the job. You’ll build newsapps that help automa
 
 This position, like all others on the Interactive News team, is part of the POLITICO newsroom — **not** a product development team — and that’s how we like it. Your work will be grounded in keen editorial judgment and close working relationships with POLITICO's deeply sourced reporters and editors. A background in journalism is a plus, but not required. A commitment to the editorial goals and standards of our newsroom is a must.
 
-Because of the wide scope of this position on a small team, you will work across our entire technology stack. Our current fashion is a mixture of Python/Django and Node/Express on the backend with React/Redux on the frontend. Most of our staff come into the job not knowing at least one part of the stack we use. The ability to learn quickly is far more valuable to our team than what you don’t know today.
+Because of the wide scope of this position on a small team, you will work across our entire technology stack. Our current fashion is a mixture of Python/Django and Node/Express on the backend with React/Redux on the frontend. Most of our staff come into the job not knowing the entire stack we use. The ability to learn quickly is far more valuable to our team than what you don't know today, and we'll expect you to help shape our tech vogue going forward.
 
 Not required, but make sure you tell us if you've:
 
