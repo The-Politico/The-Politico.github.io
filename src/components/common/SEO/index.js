@@ -19,7 +19,7 @@ class Head extends React.Component {
         <link rel='icon' sizes='96x96' type='image/png' href='https://www.politico.com/favicon-96x96.png' />
         <meta property='twitter:site' content='@politico' />
         <meta property='article:author' content='https://www.facebook.com/politico' />
-        <meta property='og:image' content={shareImgUrl} />
+        <meta property='og:image' content={'https://The-Politico.github.io' + shareImgUrl} />
         <meta property='og:url' content={url} />
         <meta property='og:title' content={title} />
         <meta property='og:description' content={description} />

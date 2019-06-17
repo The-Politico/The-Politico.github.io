@@ -28,13 +28,13 @@ $ yarn build
 
 Create a markdown file in `statics/code/`.
 
-Add front matter to the file, if necessary:
+Add front matter to the file, if you have it:
 
 ```
 ---
   docs: http://yourdocs.com
   tags:
-    - Django
+    - A tag
     - Record linkage
 ---
 ```

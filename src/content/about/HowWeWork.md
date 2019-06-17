@@ -1,6 +1,6 @@
-We work on everything from breaking news to weeks-long projects. Our ideas come from close collaboration with reporters and editors as much as they do from constant conversation within our team. We publish content within the POLITICO CMS and maintain our own platforms to publish code freely.
+Our ideas come from close collaboration with reporters and editors as much as they do from constant conversation within our team. We publish content within the POLITICO CMS and maintain our own platforms to publish our code freely.
 
-Our bosses give us wide latitude. We earn that right by delivering compelling projects that represent the best parts of POLITICO’s journalism.
+Our bosses give us wide latitude to determine our priorities. We earn that right by delivering compelling projects that represent the best parts of POLITICO’s journalism.
 
 We are committed to radical transparency, whether that's broadcasting our process and priorities to our peers or open-sourcing our code.
 

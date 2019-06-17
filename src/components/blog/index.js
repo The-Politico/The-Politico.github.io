@@ -33,7 +33,9 @@ const Blog = () => {
       <article>
         <h2>Latest</h2>
         <div>
-          {links}
+          {links.length > 0 ? links : (
+            <p>Check back soon. We're writing...</p>
+          )}
         </div>
       </article>
     </div>

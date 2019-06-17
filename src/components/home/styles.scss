@@ -67,6 +67,16 @@
       font-weight: 900;
       letter-spacing: 0;
       line-height: 0.8;
+
+    }
+    @media (min-width: 1000px) {
+      margin-left: -3px;
+    }
+    @media (min-width: 1200px) {
+      margin-left: -5px;
+    }
+    @media (min-width: 1600px) {
+      margin-left: -10px;
     }
   }
   .links {
