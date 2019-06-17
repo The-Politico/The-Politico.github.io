@@ -38,3 +38,9 @@ Add front matter to the file, if you have it:
     - Record linkage
 ---
 ```
+
+After your done, rebuild the site:
+
+```
+$ yarn build
+```
