@@ -1,12 +1,15 @@
 import React from 'react';
 import Header from 'Components/common/Header';
 import ContactButtons from 'Components/common/ContactButtons';
-import staff from 'Data/staff.json';
+
 import Staffer from './Staffer.jsx';
 import WhatWeDo from 'Content/about/WhatWeDo.md';
 import HowWeWork from 'Content/about/HowWeWork.md';
-import { Link } from 'react-router-dom';
+import staff from 'Content/about/staff.json';
 import classnames from 'classnames';
+
+import SEO from 'Components/common/SEO';
+import seo from 'Content/about/seo';
 
 import { component } from './styles.scss';
 
@@ -14,39 +17,23 @@ const About = () => {
   const staffers = staff.map(staffer => <Staffer staffer={staffer} />);
   return (
     <div className={classnames(component, 'page about')}>
+      <SEO {...seo} />
       <Header />
       <article>
-        <h2>What we do</h2>
-        <WhatWeDo />
-      </article>
-      <article className='big-well'>
-        <h2>Who we are</h2>
-        <div className='flex'>
-          {staffers}
-          <div>
-            <div className='staffer'>
-              <div className='topline'>
-                <div className='profile'>
-                  <img src='images/question.png' />
-                </div>
-                <div className='identity'>
-                  <Link to='/jobs'>
-                    <h5>@YOU</h5>
-                    <h4>Future politico</h4>
-                    <p />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className='clear' />
+        <section>
+          <h2>What we do</h2>
+          <WhatWeDo />
+        </section>
+        <section>
+          <h2>Who we are</h2>
+          <div className='flex'>
+            {staffers}
           </div>
-        </div>
-      </article>
-      <div className='clear' />
-      <article>
-        <h2>How we work</h2>
-        <HowWeWork />
-        <ContactButtons />
+        </section>
+        <section>
+          <h2>How we work</h2>
+          <HowWeWork />
+        </section>
       </article>
     </div>
   );

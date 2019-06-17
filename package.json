@@ -6,7 +6,16 @@
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.js",
     "build": "webpack --config config/webpack.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postbuild": "react-snap"
+  },
+  "reactSnap": {
+    "source": "/",
+    "fixWebpackChunksIssue": false,
+    "minifyHtml": {
+      "collapseWhitespace": false,
+      "removeComments": false
+    }
   },
   "repository": {
     "type": "git",
@@ -17,20 +26,32 @@
   "bugs": {
     "url": "https://github.com/The-Politico/The-Politico.github.io/issues"
   },
-  "homepage": "https://github.com/The-Politico/The-Politico.github.io#readme",
+  "homepage": "/",
   "dependencies": {
     "@fortawesome/fontawesome": "1.1.4",
     "@fortawesome/fontawesome-free-brands": "5.0.8",
     "@fortawesome/fontawesome-free-solid": "5.0.8",
-    "@fortawesome/react-fontawesome": "0.0.17",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@politico/graphics-kit": "^0.0.5",
     "bulma": "0.6.2",
+    "copy-to-clipboard": "^3.2.0",
+    "d3": "^5.9.2",
+    "d3-hexbin": "^0.2.2",
+    "gray-matter": "^4.0.2",
+    "journalize": "^2.2.0",
     "normalize.css": "7.0.0",
     "politico-style": "*",
+    "prismjs": "^1.16.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.1",
     "react-markdown": "^3.3.4",
+    "react-refractor": "^1.0.1",
     "react-router-dom": "^4.3.1",
-    "react-transition-group": "^2.4.0"
+    "react-transition-group": "^2.4.0",
+    "refractor": "^2.9.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.56",
@@ -55,6 +76,7 @@
     "mini-css-extract-plugin": "==0.4.1",
     "node-sass": "^4.9.4",
     "optimize-css-assets-webpack-plugin": "==5.0.1",
+    "react-snap": "^1.23.0",
     "sass-loader": "==7.0.3",
     "style-loader": ">=0.21.0",
     "uglifyjs-webpack-plugin": "==2.0.1",
@@ -62,6 +84,7 @@
     "webpack-cli": "==3.1.0",
     "webpack-dev-server": "==3.1.4",
     "webpack-merge": "==4.1.4",
-    "webpack-node-externals": "==1.7.2"
+    "webpack-node-externals": "==1.7.2",
+    "webpack-virtual-modules": "^0.1.10"
   }
 }

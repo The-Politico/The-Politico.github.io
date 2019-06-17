@@ -1,4 +1,4 @@
-## Why work on Interactive News at POLITICO
+## Why work on Interactive News
 
 If you're comfortable working with a high degree of autonomy and a wide scope, our team is a unique opportunity.
 

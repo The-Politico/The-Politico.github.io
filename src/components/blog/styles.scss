@@ -1,0 +1,16 @@
+.component :global {
+  min-height: 100vh;
+
+  .post {
+    margin-top: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    &:first-child{
+      margin-top: 1rem;
+    }
+    &:last-child{
+      border-bottom: 0;
+    }
+  }
+
+}

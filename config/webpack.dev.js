@@ -10,10 +10,18 @@ const config = (env, argv, port) => (merge(common, {
   mode: 'development',
   devtool: 'cheap-module-eval-source-map',
   devServer: {
-    compress: true,
+    disableHostCheck: true,
     port: port,
     open: true,
-    contentBase: './',
+    contentBase: path.resolve(__dirname, '../statics'),
+    historyApiFallback: {
+      rewrites: [
+        { from: /^\/.*\/app.js/, to: '/app.js' },
+        { from: /^\/statics\/.*/,
+          to: (context) => context.parsedUrl.pathname.replace('/statics/', '/'),
+        },
+      ],
+    },
   },
   module: {
     rules: [{
@@ -45,6 +53,17 @@ const config = (env, argv, port) => (merge(common, {
       }, {
         loader: 'sass-loader',
         options: {
+          sourceMap: true,
+        },
+      }],
+    }, {
+      test: /\.css$/,
+      use: [{
+        loader: 'style-loader',
+      }, {
+        loader: 'css-loader',
+        options: {
+          modules: true,
           sourceMap: true,
         },
       }],
