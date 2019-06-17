@@ -1,47 +1,37 @@
-import { Link } from 'react-router-dom';
+import { NavLink as Link } from 'react-router-dom';
 import React from 'react';
 import classnames from 'classnames';
+import Chart from './chart';
 import { component } from './styles.scss';
 
 const Header = props => {
   return (
     <div className={classnames(component)}>
       <header>
-        <div className='home'>
+        <div className='global-brand'>
           <Link to='/'>
-            <svg
-              xmlns='http://www.w3.org/2000/svg'
-              height='20px'
-              version='1.1'
-              x='0px'
-              y='0px'
-              viewBox='0 0 100 100'
-              enableBackground='new 0 0 100 100'
-              xmlSpace='preserve'
-            >
-              <path d='M79.5,81.458h-57V41.27L51,16.729L79.5,41.27V81.458z M25.5,78.458h51V42.646L51,20.688L25.5,42.646V78.458z' />
-            </svg>
+            <div className='brand'><b className='icon icon-politico' /></div>
+            <div className='team'>Interactives</div>
           </Link>
         </div>
-        <div className='global-brand'>
-          <a href='https://www.politico.com/'>
-            <div className='brand'>
-              <b className='icon icon-politico' />
-            </div>
-          </a>
-        </div>
+        <Chart />
         <nav>
           <span>
-            <Link to='/jobs'>Jobs</Link>
+            <Link activeClassName='active' to='/jobs/'>Jobs</Link>
           </span>
-          <Link to='/about'>
+          <Link activeClassName='active' to='/team/'>
             <span className='is-hidden-mobile'>Our team</span>
             <span className='is-hidden-tablet'>Team</span>
           </Link>
-          <Link to='/open-source'>
+          <Link activeClassName='active' to='/code/'>
             <span className='is-hidden-mobile'>Open source</span>
             <span className='is-hidden-tablet'>Code</span>
           </Link>
+          <span>
+            <Link activeClassName='active' to='/blog/'>
+              Blog
+            </Link>
+          </span>
         </nav>
       </header>
     </div>

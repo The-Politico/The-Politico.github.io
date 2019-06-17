@@ -1,0 +1,6 @@
+export default {
+  url: 'https://the-politico.github.io',
+  title: 'POLITICO Interactive News: Blog',
+  description: 'Notes on the work and process of Interactive News at POLITICO.',
+  shareImgUrl: 'statics/images/share.jpeg',
+};

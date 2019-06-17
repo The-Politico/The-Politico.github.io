@@ -1,7 +1,16 @@
 @import "~Theme/fonts";
 @import "~Theme/mixins";
+@import "~Theme/colors";
 
 .component :global {
+
+  section{
+    margin-top: 60px;
+    &:first-child{
+      margin-top: 0;
+    }
+  }
+
   .flex {
     flex: none;
 
@@ -14,9 +23,11 @@
 
   .staffer {
     margin: 10px 0;
+    display: block;
+    min-width: 50%;
 
     h5 {
-      font-size: 0.85rem;
+      font-size: 0.75rem;
     }
 
     a {
@@ -33,10 +44,15 @@
       text-align: center;
       margin-top: 2rem;
 
-      @media (min-width: 600px) {
+      @media (min-width: 450px) {
+        display: inline-block;
+      }
+
+      @media (min-width: 400px) {
         float: left;
         display: inline-block;
         margin-top: 0;
+        text-align: left;
       }
 
       img {
@@ -58,7 +74,7 @@
       padding: 10px 20px;
       text-align: center;
 
-      @media (min-width: 600px) {
+      @media (min-width: 400px) {
         float: left;
         display: inline-block;
         text-align: left;
@@ -66,17 +82,19 @@
 
       h4 {
         margin: 0;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 1;
         font-weight: 200;
         @extend %body-font;
 
         @media (min-width: 650px) {
-          font-size: 32px;
+          font-size: 22px;
         }
       }
       p {
         margin: 0;
+        font-size: 14px;
+        font-weight: normal;
       }
     }
   }

@@ -1,29 +1,27 @@
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import React from 'react';
 import classnames from 'classnames';
 import { component } from './styles.scss';
+import Chart from './chart';
+import SEO from 'Components/common/SEO';
+import seo from 'Content/home/seo';
 
 const Header = () => (
   <div className={classnames(component, 'page home')}>
+    <SEO {...seo} />
     <section className='hero is-fullheight'>
+      <Chart />
       <div className='center-box'>
         <div className='brand'>
-          <Link to='https://www.politico.com/'>
-            <b className='icon icon-politico' />
-          </Link>
+          <b className='icon icon-politico' />
         </div>
         <h1>Interactive News</h1>
         <nav className='links'>
-          <Link to='/jobs'>Jobs✨</Link>
-          <Link to='/about'>Our team</Link>
-          <Link to='/open-source'>Open source</Link>
+          <Link to='/jobs/'>Jobs</Link>
+          <Link to='/team/'>Team</Link>
+          <Link to='/code/'>Code</Link>
+          <Link to='/blog/'>Blog</Link>
         </nav>
-        <div className='github'>
-          <a href='https://github.com/The-Politico'>
-            <FontAwesomeIcon icon={['fab', 'github']} />
-          </a>
-        </div>
       </div>
     </section>
   </div>

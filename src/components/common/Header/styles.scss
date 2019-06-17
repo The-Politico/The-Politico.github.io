@@ -4,8 +4,23 @@
 
 .component :global {
   header {
+    position: relative;
     height: 4rem;
-    background-color: white;
+    background-color: $midnight;
+
+    a {
+      color: white;
+    }
+
+    nav a {
+      color: rgba(255,255,255,0.4);
+      &.active{
+        color: white;
+      }
+      &:hover{
+        color: white;
+      }
+    }
 
     @media (min-width: 600px) {
       height: 6rem;
@@ -13,22 +28,36 @@
 
     position: relative;
     .global-brand {
-      position: absolute;
-      left: 33%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-
+      @extend %body-font;
+      width: 100px;
+      margin-top: 20px;
+      margin-left: 10px;
+      display: inline-block;
       @media (min-width: 420px) {
-        left: 50%;
+        width: 200px;
+      }
+      @media (min-width: 600px) {
+        margin-top: 26px;
+        margin-left: 20px;
       }
 
+      .team{
+        display: none;
+        margin-top: -2px;
+        font-size: 22px;
+        font-weight: bold;
+        @media (min-width: 600px) {
+          display: block;
+        }
+      }
+
+
       .icon-politico::before {
-        font-size: 18px;
-        text-align: center;
+        font-size: 20px;
 
         @media (min-width: 600px) {
-          font-size: 34px;
+          font-size: 8px;
+          margin-left: 2px;
         }
       }
     }
@@ -45,23 +74,26 @@
       }
     }
 
-    .home {
-      line-height: 4rem;
-      margin-left: 20px;
-      display: inline-block;
-      margin-top: 4px;
-
+    #nav-chart{
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 0;
+      left: 150px;
       @media (min-width: 600px) {
-        line-height: 6rem;
+        width: calc(100% - 370px);
+        height: 96px;
       }
-      svg {
-        fill: $politico-red;
+      @media (min-width: 769px) {
+        width: calc(100% - 450px);
+        height: 96px;
       }
     }
 
     nav {
       float: right;
       @extend %body-font;
+      color: white;
     }
   }
 }

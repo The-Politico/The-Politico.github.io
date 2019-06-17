@@ -9,6 +9,11 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = (env, argv) => (merge(common, {
   mode: 'production',
+  output: {
+    filename: `[name].[contenthash].js`,
+    path: path.join(__dirname, '../'),
+    publicPath: '/',
+  },
   module: {
     rules: [{
       test: /theme.*\.scss$/,
@@ -42,8 +47,18 @@ module.exports = (env, argv) => (merge(common, {
           sourceMap: true,
         },
       }],
-    },
-    ],
+    }, {
+      test: /\.css$/,
+      use: [{
+        loader: MiniCssExtractPlugin.loader,
+      }, {
+        loader: 'css-loader',
+        options: {
+          modules: true,
+          sourceMap: true,
+        },
+      }],
+    }],
   },
   optimization: {
     minimizer: [
@@ -66,6 +81,11 @@ module.exports = (env, argv) => (merge(common, {
     new CleanWebpackPlugin([
       '../*.js',
       '../*.css',
+      '../*.html',
+      '../code/*.html',
+      '../jobs/*.html',
+      '../team/*.html',
+      '../blog/*',
     ], { allowExternal: true }),
   ],
 }));

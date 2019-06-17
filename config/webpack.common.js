@@ -1,4 +1,5 @@
 const path = require('path');
+const virtualPostsPlugin = require('./virtualPostsPlugin');
 
 module.exports = {
   entry: {
@@ -7,10 +8,6 @@ module.exports = {
       'whatwg-fetch',
       path.join(__dirname, '../src/App.jsx'),
     ],
-  },
-  output: {
-    filename: `[name].[contenthash].js`,
-    path: path.join(__dirname, '../'),
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -49,4 +46,5 @@ module.exports = {
       },
     ],
   },
+  plugins: [virtualPostsPlugin],
 };

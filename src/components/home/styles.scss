@@ -1,11 +1,27 @@
 @import "~Theme/colors";
 @import "~Theme/fonts";
+@import "~Theme/mixins";
 
 .component :global {
   height: 100vh;
   padding: 0;
-  background-color: $politico-red;
+  background-color: #37344d;
+
   color: white;
+
+  .hero {
+    position: relative;
+
+    #chart{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+
+
 
   .center-box {
     padding: 21% 0;
@@ -19,8 +35,13 @@
     }
   }
   .brand {
+    opacity: 0;
+    @include animation('fade-in 1s linear');
+    animation-delay: 0s;
+
     text-align: left;
     padding-left: 5px;
+    margin-bottom: 5px;
 
     a {
       color: white;
@@ -28,12 +49,18 @@
     }
   }
   h1 {
+    opacity: 0;
+    @include animation('fade-in 1s linear');
+    animation-delay: 0s;
+
+
     @extend %body-font;
     font-size: 18vw;
     font-weight: 900;
     letter-spacing: 0;
     margin-top: 5px;
     line-height: 0.8;
+
 
     @media (min-width: 600px) {
       font-size: 10vw;
@@ -43,6 +70,9 @@
     }
   }
   .links {
+    opacity: 0;
+    @include animation('fade-in 1s linear');
+    animation-delay: 0.25s;
     @extend %body-font;
     margin: 0px auto;
     font-size: 18px;
@@ -52,17 +82,19 @@
     }
 
     a {
-      margin-right: 50px;
+      margin-right: 10px;
       opacity: 1;
       font-weight: normal;
       transition: all 0.2s;
       text-decoration: none;
       color: #fff;
-      font-size: 1.2rem;
+      font-size: 1rem;
       cursor: pointer;
 
+      padding-right: 10px;
+
       @media (min-width: 600px) {
-        font-size: 1.4rem;
+        font-size: 1rem;
       }
       &:hover {
         text-decoration: underline;
