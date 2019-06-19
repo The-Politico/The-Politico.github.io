@@ -1,5 +1,6 @@
 ---
   title: Design developer
+  apply: https://recruiting.ultipro.com/PER1013PCLL/JobBoard/b972ff6a-41b7-4e97-9c71-273c2595c77d/OpportunityDetail?opportunityId=b99fdef2-a5ba-42bd-8329-2b346018ad1f
 ---
 
 We’re looking for a skilled designer with a keen sense of digital storytelling to join the Interactive News desk at POLITICO.
