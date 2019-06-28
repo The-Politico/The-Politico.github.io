@@ -24,7 +24,7 @@ class Post extends React.Component {
   }
   componentDidMount() {
     const { date } = this.props.match.params;
-    fetch(`https://raw.githubusercontent.com/The-Politico/The-Politico.github.io/master/statics/posts/${date}.md`)
+    fetch(`/statics/posts/${date}.md`)
       .then(response => response.text())
       .then(string => {
         this.setState({
