@@ -24,7 +24,9 @@ class Post extends React.Component {
   }
   componentDidMount() {
     const { date } = this.props.match.params;
-    fetch(`https://raw.githubusercontent.com/The-Politico/The-Politico.github.io/master/statics/posts/${date}.md`)
+    const fetchPrefix = location.hostname === 'localhost' || location.hostname === '127.0.0.1' ?
+      '' : 'https://raw.githubusercontent.com/The-Politico/The-Politico.github.io/master';
+    fetch(`${fetchPrefix}/statics/posts/${date}.md`)
       .then(response => response.text())
       .then(string => {
         this.setState({
