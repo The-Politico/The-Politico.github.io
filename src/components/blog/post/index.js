@@ -5,10 +5,11 @@ import React from 'react';
 import classnames from 'classnames';
 import SEO from 'Components/common/SEO';
 import BlogPosts from 'Blog';
+import { apdate } from 'journalize';
 import ReactMarkdown from 'react-markdown';
 
 import * as matter from 'gray-matter';
-
+import Author from './Author';
 import { component } from './styles.scss';
 
 const ParagraphRenderer = ({ children }) => {
@@ -38,6 +39,14 @@ class Post extends React.Component {
     const { date, id } = this.props.match.params;
     const post = BlogPosts[date];
     const { content } = this.state;
+    const datetime = new Date(date + 'T04:00:00');
+    const authors = post.authors.map((a, i) => (
+      <Author
+        {...a}
+        i={i}
+        length={post.authors.length}
+      />
+    ));
     return (
       <div className={classnames(component, 'page post')}>
         <SEO
@@ -48,6 +57,17 @@ class Post extends React.Component {
         />
         <Header />
         <article>
+          <header>
+            <h1>{post.title}</h1>
+            <p className='byline'>
+              <time
+                itemProp='datePublished'
+                dateTime={date}
+              >
+                {apdate(datetime)}
+              </time> ⁠• {authors}
+            </p>
+          </header>
           {
             content ? (
               <ReactMarkdown

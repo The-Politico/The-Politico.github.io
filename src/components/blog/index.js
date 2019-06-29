@@ -3,6 +3,7 @@ import Header from 'Components/common/Header';
 import React from 'react';
 import classnames from 'classnames';
 import { apdate } from 'journalize';
+import humanizeList from 'humanize-list';
 import SEO from 'Components/common/SEO';
 import seo from 'Content/blog/seo';
 
@@ -16,11 +17,11 @@ posts.sort((a, b) => new Date(b) - new Date(a));
 
 const links = posts.map((p) => {
   const post = BlogPosts[p];
-  const date = new Date(p);
+  const date = new Date(p + 'T04:00:00');
   return (
     <div className='post' key={p}>
       <h3><Link to={`/blog/${p}/${post.slug}/`}>{post.title}</Link></h3>
-      <h5>{apdate(date)}, by {post.author}</h5>
+      <h5>{apdate(date)} by {humanizeList(post.authors.map(a => a.name))}</h5>
     </div>
   );
 });

@@ -6,6 +6,31 @@
 
   article {
     padding-top: 40px;
+
+    header{
+      font-family: $din;
+      margin: 10px 0 30px;
+      h1{
+        margin: 0;
+      }
+      p.byline{
+        margin: 5px 0 0px;
+        color: #aaa;
+        font-size: 14px;
+        letter-spacing: 1px;
+        .author{
+          display: inline-block;
+
+          a{
+            color: #aaa;
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
     p, ul, ol{
       font-family: $din;
       color: $black;
@@ -27,6 +52,7 @@
       color: #999;
       text-transform: uppercase;
       margin-bottom: 10px;
+      font-weight: 400;
     }
     h4{
       font-size: 1rem;
