@@ -53,7 +53,7 @@ class Post extends React.Component {
           title={post.title}
           description='Posts from POLITICO Interactive News.'
           url={`/blog/${date}/${id}/`}
-          shareImgUrl=''
+          shareImgUrl={post.shareImg || '/statics/images/share_blog.jpg'}
         />
         <Header />
         <article>
