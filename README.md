@@ -12,7 +12,9 @@ Add the following front matter to the file:
 ---
   title: Title for your post
   slug: slug-for-your-post
-  author: Your Name
+  authors:
+    - name: Jon McClure
+      link: https://twitter.com/jonrmcclure
 ---
 ```
 
