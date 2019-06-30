@@ -6,6 +6,7 @@ import scss from 'refractor/lang/scss';
 import bash from 'refractor/lang/bash';
 import sql from 'refractor/lang/sql';
 import r from 'refractor/lang/r';
+import markdown from 'refractor/lang/markdown';
 
 import copy from 'copy-to-clipboard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -20,6 +21,7 @@ Refractor.registerLanguage(python);
 Refractor.registerLanguage(scss);
 Refractor.registerLanguage(sql);
 Refractor.registerLanguage(r);
+Refractor.registerLanguage(markdown);
 
 const getLang = (lang) => {
   switch (lang) {
@@ -36,7 +38,7 @@ class CodeBlock extends React.Component {
     return (
       <div className={component}>
         <Refractor
-          language={getLang(language.toLowerCase())}
+          language={getLang(language ? language.toLowerCase() : 'bash')}
           value={value}
         />
         <button
